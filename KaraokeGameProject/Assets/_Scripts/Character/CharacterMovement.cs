@@ -10,8 +10,11 @@ public class CharacterMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
+
     private Vector2 moveDirection;
     private bool isRunning = false;
+    private float horizontal;
+    private float vertical;
 
     private void Awake()
     {
@@ -23,6 +26,9 @@ public class CharacterMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        rb.freezeRotation = true;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        rb.gravityScale = 0.0f;
     }
 
     // Update is called once per frame
@@ -50,9 +56,25 @@ public class CharacterMovement : MonoBehaviour
 
     private void ProcessInput()
     {
-        float xAxis = Input.GetAxisRaw("Horizontal");
-        float yAxis = Input.GetAxisRaw("Vertical");
-        moveDirection = new Vector2(xAxis, yAxis).normalized;
-        isRunning = Input.GetKey(KeyCode.LeftShift);
+        // Horizontal
+        if (Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveLeft) || Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveRight))
+        {
+            horizontal = Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveLeft) ? -1.0f : 1.0f;
+        }
+        else
+        {
+            horizontal = 0.0f;
+        }
+        // Vertical
+        if (Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveUp) || Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveDown))
+        {
+            vertical = Input.GetKey(InputManager.Instance.CharacterKeybinds.MoveDown) ? -1.0f : 1.0f;
+        }
+        else
+        {
+            vertical = 0.0f;
+        }
+        moveDirection = new Vector2(horizontal, vertical).normalized;
+        isRunning = Input.GetKey(InputManager.Instance.CharacterKeybinds.RunKey);
     }
 }
