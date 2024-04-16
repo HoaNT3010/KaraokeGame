@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1244180967
+    locked: 0
+  - name: Base
+    uniqueID: 4140550507
+    locked: 0
+  - name: DecorationLower
+    uniqueID: 2297790207
+    locked: 0
+  - name: DecorationUpper
+    uniqueID: 153283767
+    locked: 0
+  - name: DecorationUpperUpper
+    uniqueID: 2935570885
+    locked: 0
