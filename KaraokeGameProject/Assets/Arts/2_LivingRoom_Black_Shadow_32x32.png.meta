@@ -1,0 +1,3040 @@
+fileFormatVersion: 2
+guid: 56698907b517bf243886b7cd928d7f7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1320
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb0848d2338b8f408ca5f844bb3d10e
+      internalID: -1788096551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1388
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880f4b167be4e9940b29dd86eedc20a6
+      internalID: 2007463145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1388
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8403b41d1825aa64f89c5ade4dba9e84
+      internalID: 631176838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1376
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da9afcfd1aee2a42a7bc22ee843aa6e
+      internalID: -581220132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1360
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982b68089d095014499e64a01bb088a3
+      internalID: 365467833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1362
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9833befa8847fb4cae8618c2d679235
+      internalID: -1867490232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1378
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162ac7a19625187468bb359876b5aac8
+      internalID: 1047832685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1314
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad4b4ffbea4e014cba1764f8cd5209c
+      internalID: -1283470610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1312
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efebe371fd93f145a038d07fafc9d3b
+      internalID: 1973103378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1312
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a9907039973af4a9eab46223bdbb5c
+      internalID: 927192834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1314
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde949da49668c14686a76469bcec4a8
+      internalID: -238765254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1312
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f22611ec94e7eb418c11ee4ba5c0220
+      internalID: -78719240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1240
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f0ef64dc3c18438c0098b0df8bd2a
+      internalID: -859058064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1216
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a1177f7c43f084b8ea067f706811ca
+      internalID: 1328548065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1228
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3abc0fef4cf85246927d64a886fbfd4
+      internalID: 168256294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1228
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739329c2caf5d1045ac2f240d3dd7bb4
+      internalID: -856295109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049cfbbed0ffac746b15897be813baf1
+      internalID: 1650151773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1226
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe2151dcc70704f9f642f51924fcf2
+      internalID: -440505312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1226
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1856a19c0d8f0d440b99b2b30dc66482
+      internalID: 1005306661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1230
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c75f996064f7408e417ffc748c497
+      internalID: 1501362945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1230
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdd74fa7c109a54b9758138a37a307a
+      internalID: -1561217511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1184
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489a53b2f905cec439400a97904092f4
+      internalID: 2102810629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1158
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0187d1bc25f72a74c95e60acadab357c
+      internalID: 1461691540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1158
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caab0aa001c08c43ad4dba7e99a857d
+      internalID: -822998106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1158
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f0d8cfc9fdd2d4da6dc02daaec0030
+      internalID: 193831123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1158
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83c2e7e16b5ec4397d2958b310b38f
+      internalID: -1969364977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1130
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d761c6683cfd984c9399245d0c97e2f
+      internalID: 129454498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1130
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8465239b1f9144abe0066a4bfc49aa
+      internalID: 2095930531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b59c53d43e210942a01e691dfb7eaaf
+      internalID: -1599402290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1160
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b116c3bd65e4794e866492347fd85d2
+      internalID: -1014610049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1160
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80017f5af50b3c4e9ebea4b172b4adb
+      internalID: -952021953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1156
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3379e151c4270a24c9c57b001d86f395
+      internalID: 915048694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1102
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e813a30cd3e2949889da08f3b53152
+      internalID: 1630404246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1102
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8943ffd1a90284e459fa573d28f8ec3f
+      internalID: 1725149025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1102
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6640ec1725b6dca49956433735c09692
+      internalID: 383387138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1088
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc96753373aec4548828cc8180e19798
+      internalID: 1617445336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1088
+        width: 192
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2903ce603ca0043a82171b76aafb39
+      internalID: -722675910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1088
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3df05907b41a2f4aaf2df03b31535b6
+      internalID: 419994941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1070
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a5475047bfd340a2ff045c3c88722
+      internalID: -2067387638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1070
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99356ec251aabe4ca1ff562865d282c
+      internalID: 2000558826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1100
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54e74f9b1915ff49beccc9907a30ae1
+      internalID: -1327430867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1096
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a046d706fb18419d1bd4324f49a59
+      internalID: 151442136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588c76edd6c73f1409330715860e47e6
+      internalID: 1145215956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1036
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eab03dfa27b12840966b79e8739bf17
+      internalID: 1646893437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1036
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42290471a08421e479040378c8552e7c
+      internalID: 951097489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1056
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b053af39a081f4090feac051311510
+      internalID: -1606126605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1024
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b7cc855fa660e43a984e7b744d9278
+      internalID: 1232576644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1032
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48cc73ed3b04c145a53f692c0c09ff3
+      internalID: -1067611950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1032
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e9132f8e475614ca38ce5f67dbc059
+      internalID: -143508343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a02e49412d4ef43b1c30891906c636
+      internalID: 333582681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1004
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39026b6091aabcc40bca5c7bff0c1dfd
+      internalID: 1134060433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 996
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aa373028eb0ac4b88933b67ac31d93
+      internalID: 1498904374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1000
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5e2b824ce430849be340ab541675ca
+      internalID: 1506983567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 938
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dccedf5852127f48897802b87b76f9e
+      internalID: -1740834939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 974
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ce5fe388e1c124780aaa283e416f64
+      internalID: 1018226857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 974
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee170b825933916488de413ba664adb2
+      internalID: -1607835127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 972
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf4e461357a6b44b20d60e9da0fab7
+      internalID: -265125622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 968
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c1a44c3bb9cda4786d1feec0be6111
+      internalID: 332020970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 960
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4688976c543c5634e9567c683b2fc01b
+      internalID: 1956711956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da9316fe270d444b27038845cf4a0b
+      internalID: 834810280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 940
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bdb0d221fcb2847b65e0fb97fc529d
+      internalID: 555944067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 910
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad84b18908862b34f97d2aad100edb5c
+      internalID: 877279984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 904
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650537c445f3bd346bdd49f4f131e44a
+      internalID: -827793477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 908
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc808f468ffa390458a089223df5765a
+      internalID: 185006753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 908
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644dc13de2bdd24da57cbbcf4d57319
+      internalID: 88155724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 934
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d4562e4fb67bf4ba9cdb8172f656a2
+      internalID: 762277505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 934
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e14729f1b02ee4ca1ab6995f2bd75a
+      internalID: -556467468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 936
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808c45e1c6a0464a933ae1be2b1c05f
+      internalID: 530402184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 872
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3332a678d03fe4459c1401b28295eb3
+      internalID: 2063666975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 880
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20e908f547aa734199d042da84b9ae4
+      internalID: -858830627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 880
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695694352851ff4cbc597c8b91850e2
+      internalID: 454926495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 756
+        width: 108
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f372cd58315154dbbd57d2500f7791
+      internalID: -1635659348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 886
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05440bd18e0a1f94da599c6a08a50482
+      internalID: -702264911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 874
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81940427d66cdf34f922295819226be4
+      internalID: 1251328871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 876
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b1e74f514448c418f1f3d3a005b3d7
+      internalID: -427542152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 870
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4d6538bb15c374999c01567383b7e4
+      internalID: -1357189219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 750
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99c6d6ec8f4ddb42b41f860f6ee38ae
+      internalID: -1560675937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 822
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620c3764fa955e4ea8ad5796484b47d
+      internalID: -1694543217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 810
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b4df75726b2ba49b962cae027de52b
+      internalID: 1360555620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 806
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01d81038bd9d3d40a5d254a54f9dca5
+      internalID: -1604077201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 818
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a7c724d3f9e8741b9c22fd74f97f05
+      internalID: 2108597641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 818
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581dc5d99b55f5443a687c513058cb9d
+      internalID: 1114177148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 784
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d3a965442c1524585f2fc23f2e5549
+      internalID: 1302353276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 774
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2a41af40917a498d57e65a5eb16c2
+      internalID: -1609512836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 750
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6217ead66c840654bbd6132217d9090c
+      internalID: -1189438234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 680
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517153000d0ac74497c17c3086854af
+      internalID: -1622397196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 680
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65947d2eb266769409f6753000045f58
+      internalID: 309449453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 680
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e3c639b4ae8f4f96f45fb539f5788
+      internalID: 1732773262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 656
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24e293836f317f42831fe7fce866488
+      internalID: 803509745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 680
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd9b6988ae1c54a93f922b643a4ac8
+      internalID: -1780991452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 692
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c498eb5874c97a34bb2b168b91fe0709
+      internalID: 1352524429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 690
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41277dbd13b4c1f42bf684210fafdf72
+      internalID: -962909993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 686
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af936e19ba4c0804baa4419c30ab902f
+      internalID: 1673791637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 616
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9121f46ae38990b49b54e0a9fe217ea7
+      internalID: -1737636575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 616
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7779bab584ce541bab90f5c1263352
+      internalID: 1071040168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 550
+        width: 158
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38be9eb8b129743870351705231498
+      internalID: 1917346615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 624
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852613d935129dc48801fb867600af8d
+      internalID: 498008348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 592
+        width: 192
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118d893fcc45c8e41acb5d8383023b70
+      internalID: 711477876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 558
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77025c1dfd5303846b0fbdfe42438694
+      internalID: -962133394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 480
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e637173975020184db7b1aa311f4be65
+      internalID: -196192223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 558
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a855f736375b534989ba065d8766bc9
+      internalID: -1646082569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 560
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8d96f9042106c489af0fc17a6abf9e
+      internalID: -1539107694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 494
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256e0453b521fd44db413c82af17d9a0
+      internalID: -616581766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 430
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858f1133dc9eeec48ac30fb2b8552387
+      internalID: 601863758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 288
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e95d7d61afdd6e47b05a60bda31d681
+      internalID: 955155496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 288
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ceabd63d6bc04596056610906a8dc
+      internalID: -1285475977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 288
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df420fd1bfa7364a9a0dc667fc9b1ee
+      internalID: 471083187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf3ebce8d165d4fae6c68dc33e72a0
+      internalID: -1378539882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 400
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863cae44c45c2054187437b415d59e6d
+      internalID: -1890976288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 398
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4794e102f03a87d41a275b6b910d462b
+      internalID: -1065016209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 400
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd80f0b1d61f0154f9ee10c0fa26e66e
+      internalID: 2092382085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 400
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29495ac211d5434a8352e2a03405261
+      internalID: -1165084255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 366
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda178ecde8b3d84c9d62910b4d993e3
+      internalID: -1744051179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 334
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04b2c4bf1470654289924d6928b4297
+      internalID: -1957284920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 334
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c520fbd57676e49b0d0baf6f32ae6a
+      internalID: 1302389797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 160
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59421506f45dc34980c19d7bc75b80b
+      internalID: 996184498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 160
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0602031f7984f4abd9aae87d57b9e2
+      internalID: -380753666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 160
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88bcc27b1f22c24a979cdffd249e82c
+      internalID: -1173115936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 64
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a585f6c2699cf4790926d3ba469e1f
+      internalID: 757995920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 274
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148f5586adf9a234bb05dcd7a26b3ba6
+      internalID: -1171817222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 272
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37846af1cdf9f7a4baa732cd28625600
+      internalID: -211429546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 210
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0b9dcb280e70e45bb4a29623211643
+      internalID: -76620959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c7deb3d9dc846449aebbf14a457e4c
+      internalID: 2032840282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b131c58cadcae3443bd0b43073a802d1
+      internalID: -716436227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 114
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1eaba56beae1e47a3344e5fb3f3660
+      internalID: -1067233339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18c0599b349acb4b89e05424be3a656
+      internalID: 2119940722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e716d0fbd5d49f040a3b7fee16069b7f
+      internalID: -1562651470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd08817f3e405b34aa23867475ce1d45
+      internalID: -465904241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 82
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193fa73974b7db74f946ca91cb051747
+      internalID: 388210133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 50
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574771429a4bcdf47b7e3d2be90609bf
+      internalID: 18729501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 50
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce9b3cbe6b3dc4781a0c48427eb996
+      internalID: -49939692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_LivingRoom_Black_Shadow_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 16
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0e0d50e291b854abbae4705ab7f4cd
+      internalID: -303434376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2_LivingRoom_Black_Shadow_32x32_19: 1501362945
+      2_LivingRoom_Black_Shadow_32x32_80: 2108597641
+      2_LivingRoom_Black_Shadow_32x32_87: 1732773262
+      2_LivingRoom_Black_Shadow_32x32_79: -1604077201
+      2_LivingRoom_Black_Shadow_32x32_40: -1327430867
+      2_LivingRoom_Black_Shadow_32x32_88: 803509745
+      2_LivingRoom_Black_Shadow_32x32_52: 1506983567
+      2_LivingRoom_Black_Shadow_32x32_53: -1740834939
+      2_LivingRoom_Black_Shadow_32x32_43: 1646893437
+      2_LivingRoom_Black_Shadow_32x32_62: -827793477
+      2_LivingRoom_Black_Shadow_32x32_47: -1067611950
+      2_LivingRoom_Black_Shadow_32x32_11: -78719240
+      2_LivingRoom_Black_Shadow_32x32_14: 168256294
+      2_LivingRoom_Black_Shadow_32x32_41: 151442136
+      2_LivingRoom_Black_Shadow_32x32_26: 129454498
+      2_LivingRoom_Black_Shadow_32x32_71: -1635659348
+      2_LivingRoom_Black_Shadow_32x32_94: 1071040168
+      2_LivingRoom_Black_Shadow_32x32_68: 2063666975
+      2_LivingRoom_Black_Shadow_32x32_21: 2102810629
+      2_LivingRoom_Black_Shadow_32x32_121: -76620959
+      2_LivingRoom_Black_Shadow_32x32_129: 18729501
+      2_LivingRoom_Black_Shadow_32x32_85: -1622397196
+      2_LivingRoom_Black_Shadow_32x32_55: -1607835127
+      2_LivingRoom_Black_Shadow_32x32_36: -722675910
+      2_LivingRoom_Black_Shadow_32x32_128: 388210133
+      2_LivingRoom_Black_Shadow_32x32_46: 1232576644
+      2_LivingRoom_Black_Shadow_32x32_124: -1067233339
+      2_LivingRoom_Black_Shadow_32x32_78: 1360555620
+      2_LivingRoom_Black_Shadow_32x32_49: 333582681
+      2_LivingRoom_Black_Shadow_32x32_126: -1562651470
+      2_LivingRoom_Black_Shadow_32x32_59: 834810280
+      2_LivingRoom_Black_Shadow_32x32_38: -2067387638
+      2_LivingRoom_Black_Shadow_32x32_70: 454926495
+      2_LivingRoom_Black_Shadow_32x32_93: -1737636575
+      2_LivingRoom_Black_Shadow_32x32_112: -1744051179
+      2_LivingRoom_Black_Shadow_32x32_81: 1114177148
+      2_LivingRoom_Black_Shadow_32x32_101: -1539107694
+      2_LivingRoom_Black_Shadow_32x32_44: 951097489
+      2_LivingRoom_Black_Shadow_32x32_20: -1561217511
+      2_LivingRoom_Black_Shadow_32x32_125: 2119940722
+      2_LivingRoom_Black_Shadow_32x32_105: -1285475977
+      2_LivingRoom_Black_Shadow_32x32_63: 185006753
+      2_LivingRoom_Black_Shadow_32x32_77: -1694543217
+      2_LivingRoom_Black_Shadow_32x32_51: 1498904374
+      2_LivingRoom_Black_Shadow_32x32_65: 762277505
+      2_LivingRoom_Black_Shadow_32x32_58: 1956711956
+      2_LivingRoom_Black_Shadow_32x32_84: -1189438234
+      2_LivingRoom_Black_Shadow_32x32_1: 2007463145
+      2_LivingRoom_Black_Shadow_32x32_116: -380753666
+      2_LivingRoom_Black_Shadow_32x32_30: -952021953
+      2_LivingRoom_Black_Shadow_32x32_110: 2092382085
+      2_LivingRoom_Black_Shadow_32x32_8: 1973103378
+      2_LivingRoom_Black_Shadow_32x32_18: 1005306661
+      2_LivingRoom_Black_Shadow_32x32_113: -1957284920
+      2_LivingRoom_Black_Shadow_32x32_32: 1630404246
+      2_LivingRoom_Black_Shadow_32x32_130: -49939692
+      2_LivingRoom_Black_Shadow_32x32_16: 1650151773
+      2_LivingRoom_Black_Shadow_32x32_106: 471083187
+      2_LivingRoom_Black_Shadow_32x32_117: -1173115936
+      2_LivingRoom_Black_Shadow_32x32_82: 1302353276
+      2_LivingRoom_Black_Shadow_32x32_108: -1890976288
+      2_LivingRoom_Black_Shadow_32x32_64: 88155724
+      2_LivingRoom_Black_Shadow_32x32_6: 1047832685
+      2_LivingRoom_Black_Shadow_32x32_9: 927192834
+      2_LivingRoom_Black_Shadow_32x32_72: -702264911
+      2_LivingRoom_Black_Shadow_32x32_90: 1352524429
+      2_LivingRoom_Black_Shadow_32x32_107: -1378539882
+      2_LivingRoom_Black_Shadow_32x32_3: -581220132
+      2_LivingRoom_Black_Shadow_32x32_119: -1171817222
+      2_LivingRoom_Black_Shadow_32x32_118: 757995920
+      2_LivingRoom_Black_Shadow_32x32_57: 332020970
+      2_LivingRoom_Black_Shadow_32x32_54: 1018226857
+      2_LivingRoom_Black_Shadow_32x32_74: -427542152
+      2_LivingRoom_Black_Shadow_32x32_35: 1617445336
+      2_LivingRoom_Black_Shadow_32x32_114: 1302389797
+      2_LivingRoom_Black_Shadow_32x32_24: 193831123
+      2_LivingRoom_Black_Shadow_32x32_100: -1646082569
+      2_LivingRoom_Black_Shadow_32x32_75: -1357189219
+      2_LivingRoom_Black_Shadow_32x32_66: -556467468
+      2_LivingRoom_Black_Shadow_32x32_39: 2000558826
+      2_LivingRoom_Black_Shadow_32x32_73: 1251328871
+      2_LivingRoom_Black_Shadow_32x32_0: -1788096551
+      2_LivingRoom_Black_Shadow_32x32_122: 2032840282
+      2_LivingRoom_Black_Shadow_32x32_102: -616581766
+      2_LivingRoom_Black_Shadow_32x32_29: -1014610049
+      2_LivingRoom_Black_Shadow_32x32_13: 1328548065
+      2_LivingRoom_Black_Shadow_32x32_7: -1283470610
+      2_LivingRoom_Black_Shadow_32x32_97: 711477876
+      2_LivingRoom_Black_Shadow_32x32_2: 631176838
+      2_LivingRoom_Black_Shadow_32x32_25: -1969364977
+      2_LivingRoom_Black_Shadow_32x32_99: -196192223
+      2_LivingRoom_Black_Shadow_32x32_28: -1599402290
+      2_LivingRoom_Black_Shadow_32x32_86: 309449453
+      2_LivingRoom_Black_Shadow_32x32_91: -962909993
+      2_LivingRoom_Black_Shadow_32x32_48: -143508343
+      2_LivingRoom_Black_Shadow_32x32_127: -465904241
+      2_LivingRoom_Black_Shadow_32x32_109: -1065016209
+      2_LivingRoom_Black_Shadow_32x32_45: -1606126605
+      2_LivingRoom_Black_Shadow_32x32_67: 530402184
+      2_LivingRoom_Black_Shadow_32x32_60: 555944067
+      2_LivingRoom_Black_Shadow_32x32_5: -1867490232
+      2_LivingRoom_Black_Shadow_32x32_69: -858830627
+      2_LivingRoom_Black_Shadow_32x32_76: -1560675937
+      2_LivingRoom_Black_Shadow_32x32_42: 1145215956
+      2_LivingRoom_Black_Shadow_32x32_10: -238765254
+      2_LivingRoom_Black_Shadow_32x32_37: 419994941
+      2_LivingRoom_Black_Shadow_32x32_104: 955155496
+      2_LivingRoom_Black_Shadow_32x32_15: -856295109
+      2_LivingRoom_Black_Shadow_32x32_33: 1725149025
+      2_LivingRoom_Black_Shadow_32x32_95: 1917346615
+      2_LivingRoom_Black_Shadow_32x32_4: 365467833
+      2_LivingRoom_Black_Shadow_32x32_83: -1609512836
+      2_LivingRoom_Black_Shadow_32x32_27: 2095930531
+      2_LivingRoom_Black_Shadow_32x32_96: 498008348
+      2_LivingRoom_Black_Shadow_32x32_111: -1165084255
+      2_LivingRoom_Black_Shadow_32x32_17: -440505312
+      2_LivingRoom_Black_Shadow_32x32_50: 1134060433
+      2_LivingRoom_Black_Shadow_32x32_31: 915048694
+      2_LivingRoom_Black_Shadow_32x32_103: 601863758
+      2_LivingRoom_Black_Shadow_32x32_23: -822998106
+      2_LivingRoom_Black_Shadow_32x32_22: 1461691540
+      2_LivingRoom_Black_Shadow_32x32_12: -859058064
+      2_LivingRoom_Black_Shadow_32x32_115: 996184498
+      2_LivingRoom_Black_Shadow_32x32_120: -211429546
+      2_LivingRoom_Black_Shadow_32x32_89: -1780991452
+      2_LivingRoom_Black_Shadow_32x32_98: -962133394
+      2_LivingRoom_Black_Shadow_32x32_61: 877279984
+      2_LivingRoom_Black_Shadow_32x32_123: -716436227
+      2_LivingRoom_Black_Shadow_32x32_131: -303434376
+      2_LivingRoom_Black_Shadow_32x32_56: -265125622
+      2_LivingRoom_Black_Shadow_32x32_34: 383387138
+      2_LivingRoom_Black_Shadow_32x32_92: 1673791637
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground1
+    uniqueID: 1244180967
+    locked: 0
+  - name: Ground2
+    uniqueID: 4140550507
+    locked: 0
+  - name: UnderPlayer1
+    uniqueID: 2693792385
+    locked: 0
+  - name: UnderPlayer2
+    uniqueID: 956612205
+    locked: 0
+  - name: Player
+    uniqueID: 3066058119
+    locked: 0
+  - name: UpperPlayer1
+    uniqueID: 1995174037
+    locked: 0
+  - name: UpperPlayer2
+    uniqueID: 218209525
+    locked: 0

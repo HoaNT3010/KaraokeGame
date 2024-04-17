@@ -1,0 +1,4646 @@
+fileFormatVersion: 2
+guid: 325bd22282fb6bb4b9e4ce024f6b1d33
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1516
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5b1cd734ea794abbf51429b861693
+      internalID: 938826444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1482
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88962abda7d20a4438f97c751091ee07
+      internalID: -2048511660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1478
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e82cb061f41e044b26f7dc021620d1
+      internalID: 1577720022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1424
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218dbbf6cd403c64483a3f7e6fe86048
+      internalID: 2135235588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1424
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29049d99bd72b9c48a08c02226f33e49
+      internalID: -1758773709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1424
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7361ba4430418f42ad6974948f2d196
+      internalID: -854695572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1450
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484332ad177c44b40ba2ff99e9541470
+      internalID: 911633507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1414
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7805a919dd86884da080310cf8409d7
+      internalID: -1877441680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1368
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491062aec20d7344a899884c560bf19f
+      internalID: -16101761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1368
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bc0ebce1518c84ebb08ce2a4e286a3
+      internalID: 33514257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1368
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502245838d866e944903a57e07c232fb
+      internalID: 944546029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1386
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92ad38ed55a6e84ba9effc60dd1b01b
+      internalID: 770385513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1386
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374b254579d006d4090fb78042ae0980
+      internalID: 966377012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1386
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc3c932adbb5cb47a9b7fdc4fa00d58
+      internalID: -1197236820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1386
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3204f1d185fa74380ceae3ac4658fb
+      internalID: -2019601607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1386
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a61a4934524d444fb75d9c8d28b1d2e
+      internalID: -1650245564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1386
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189ea48f0dbd4084395256b9eb54611e
+      internalID: 1937525660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1350
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2426dcf8c414c48449400c0af39e99f0
+      internalID: -2093429699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1280
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9eee5aff666eb438ba719b002a089b
+      internalID: 1091713763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1280
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a318e6541f3d45bd87f91152037a0
+      internalID: 1821788856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1280
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e84b6eb88c2bd8408671fa807d434c8
+      internalID: -973719848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a2759beaa9ee0449abb5c5b81b5bd7
+      internalID: -575823313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c66a609cf3a5d641ac6456a33225966
+      internalID: 719684907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99e1d010d11820418fe809478531a39
+      internalID: -404955090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0747930fcb7bfae4c944661a650cdadd
+      internalID: -372132778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59b77d30349e5e45b569c0928e26a5e
+      internalID: 1758941916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1302
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a864d4a1983398a45868d098ce5bdeaf
+      internalID: -1640417682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1286
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b92e0617282ab499d487abef92548b
+      internalID: 716038315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1324
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad86c0eaf827304b80ee2723758736a
+      internalID: 1447900082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1216
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918724f2a9424454a814d502465efa1c
+      internalID: -250658335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1216
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978395f077554874dae2ab71b54985a1
+      internalID: -267946112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1216
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423380c24195c6b45ba0d815ca4811fe
+      internalID: 1180663773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8ad1d96e57c644dabf4061c8c5b3d1
+      internalID: -1469084041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1220
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae05af53909a574db3183159278b46c
+      internalID: -1339527810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1260
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d918f6e96474448b7d02803feca5fb
+      internalID: -1995098086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56ca298e2fd5d479353919edce8112
+      internalID: -449498069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1222
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48058067747864281cff2119e66231
+      internalID: 697617148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c825095dc7cd04da93a7b699df914b
+      internalID: 2112434407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db43432856d5131429ea67045d5df43d
+      internalID: -865603693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907b0ec2935ae54eba56f6ca3827896
+      internalID: -169993344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1240
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3722bdcd8f3ff4f4194cd07bc1425d2f
+      internalID: -1721007786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1152
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d77cc6437e4404b978139533c27b3d
+      internalID: 1510951368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1152
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a03e15c004fdd4bb7645b079dcf7a4
+      internalID: 1810851850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1152
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbafd6844f40f24db25712651a1cf5d
+      internalID: -774072405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1190
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3e358199c2204fbb1fbe1e71ce75a
+      internalID: -646886144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1192
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb718dab71d510479a7daed8a376f78
+      internalID: 1672903361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1192
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900b620ee7f8686489c82cd43a1552d0
+      internalID: 980532488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1192
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b553c94a8ed92ae4b8d0ca6c53686c79
+      internalID: 1563956149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1196
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2b84aece22014468509372c61e223e
+      internalID: 33154234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1120
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad125cce660cc0c41a17f0e1e09a17e3
+      internalID: -982171889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1120
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031fcf962bd50d446b525236ecb6c18a
+      internalID: -1808503374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1138
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9ed704a6edd1944b53f5652875a228
+      internalID: 1858068914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1134
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d9c27b1c5cf3748ad6d2824fbd1f5a
+      internalID: 1615064371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1120
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed521e14ce0cd24488b0b1301bfaced4
+      internalID: 1451791251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 966
+        width: 54
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1ca5fb2c12e54eab93450bd074e23
+      internalID: 446409785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 966
+        width: 54
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f3f1cb2d0f604386208f85a098b66
+      internalID: 430719440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 966
+        width: 54
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc37f5f29897249a83437549e370b0
+      internalID: -1085339545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1056
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71d9e352c738a94f821a930c1b5b025
+      internalID: -1328133757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1056
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738df33793e8045428a6f0bd8afce907
+      internalID: 755926784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1074
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10949462212ce469223ed2f4f0dcae
+      internalID: -46786741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 992
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c55ed5f2b838340838ba516682220e
+      internalID: -227627346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 992
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370449cadfec3564598863008781b9ed
+      internalID: -1668305869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 992
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1a1687ed86f21458802ac2e42d386a
+      internalID: -1875502597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 992
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d8619be94be549bb1c2ae1459933b
+      internalID: -1184232777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1038
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c458db376c3d74ba0f06dbb2c41ed5
+      internalID: -1323571352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 992
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc51e72c1270e41904e13af60e729f
+      internalID: -1322824213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 974
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def5fe2b53b165d4ba4d3a21fd85886d
+      internalID: 1748095140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 974
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadca78e4da580543ab6605295c6b90f
+      internalID: -768702645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 974
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed366426342c2664fb9bc2d50b2b2d5a
+      internalID: -1403774250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 974
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e621b41730b4e04289c48c857c7df1d
+      internalID: 2141088456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 962
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402f3b89fd4d4f34fb7af53bb625a19d
+      internalID: 146788347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 962
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee870b0f345284294678d5352ef80e
+      internalID: 1668625119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 962
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975b19c74f3801e4a8df3c6a922018de
+      internalID: 1129438850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 896
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff9f0c103765db418751e1fbaf5ac37
+      internalID: -459261713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 896
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1f2116574780144a96ef25f13934fb
+      internalID: -340603535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 800
+        width: 88
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e6628a64aedb54ea7ba83f9dedc88c
+      internalID: -1806232351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f3dc5f25965224ebd497bc28c91b5a
+      internalID: -330753521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad38ce3768f94f40b864634399d8162
+      internalID: -997047954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816f03ab863953d479fe14df908044cf
+      internalID: 1659400274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d727f3aff707d314c9c0d13f2601e357
+      internalID: 959136552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea242ba9e7558d340b4ec2a2884170bc
+      internalID: -1356813232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4ab9d5a42983d419575f52748cd023
+      internalID: 202086623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 910
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921328fa811a39d4b997d8346bf86e08
+      internalID: -923803588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 846
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d14b868ad24ec4585af0b25bd293c9
+      internalID: -221036566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 846
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c115c31527d7f649ac2040a03d47e1f
+      internalID: 1029755879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 846
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e492a09baeab34c81a9a53ad03d06c
+      internalID: -1389981908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 846
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b562c885da820b4a9b08e7c8f7374f1
+      internalID: -655492808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 846
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6accf4848c925234db33beb726216629
+      internalID: -1424672939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 800
+        width: 22
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67693f91947ac049ab48b15b081238b
+      internalID: -265738387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 800
+        width: 22
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c30a7e1defee43b48001a84c23d33
+      internalID: 1556078280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 824
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b98090298cd9c419eeb11a4f531976
+      internalID: 995128163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 848
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b0031a61799f4f93d14ea393f639f
+      internalID: 957275462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 852
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80020ab56af4a4fb3170406340caa0
+      internalID: 839252391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 852
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753b3d3dd947c841b6ce968bd9f0def
+      internalID: 270798560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 852
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9aca6b0d2b6e24da1b19e1bfd2163f
+      internalID: -429704062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 808
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dde6416b51bb5469c10ed8283807dd
+      internalID: -1778526883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 772
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a7afff62c49a64194ccc12b87bbc8b
+      internalID: 1471393550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 782
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e42afae3ed3da943afd43a2e54b0687
+      internalID: -662077931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 782
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dc0c9899bf83e46a162992c436f7d4
+      internalID: 40014290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 800
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb148199966c51488bb7b1b6efd693c
+      internalID: 320292388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 790
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087b6087f987d54eb4f6e3a185f39d8
+      internalID: 1531467056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 790
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a2a0dc7f2d82140934899051476511
+      internalID: 428657532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 790
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76a85cf5eac1d647a115339c6cbac5a
+      internalID: 2081878409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 772
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45da60adb26cdc4e993b524e4ca9ff1
+      internalID: -53150393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 750
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333fc00bf25043d47b52fa532cb22292
+      internalID: 1599614945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 750
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82d641272385b4cb4f55e18144c1b2
+      internalID: -101955260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 750
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5718a55bde9ac924ba9076cd5b301231
+      internalID: -377372498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 746
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593d0c19f60728a4792cdbc9bcda833e
+      internalID: 922319222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 746
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9ba01421467647b1b3a16728f1629
+      internalID: 1420231888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc0e02331476a44684f6c844dff433d
+      internalID: 1385395163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 744
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd73da32a04e6e43bb63b76e8dc08ab
+      internalID: 1247273205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 744
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02c3c3fa483bdc4da4b0ce9a2809cbf
+      internalID: -244991619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 750
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27757be04621447b6cc72196e65f82
+      internalID: 738484485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 708
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71cde36e8f115440a758a7eab9268be
+      internalID: -1428200826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 708
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b49c9bad6afce45b29015e0355b6e3
+      internalID: -679793015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 676
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4aea9cceed123458563d1f3d497d2b
+      internalID: 1628822442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 716
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff69c8dc201894196847c0f3420c68
+      internalID: -455488966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 698
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfc798109471ae4f9b89b7b71ea94d6
+      internalID: 117748709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 724
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dfda0a234df4640b062015b97d4c3f
+      internalID: -933986033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 724
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090d3d3e798123546b933fab8fa011f5
+      internalID: -735373007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 690
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6fc0d101923ec409dcef5b1b2162e9
+      internalID: 1462195792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 690
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c6af19c050eb04ebcffc248355c589
+      internalID: -590052762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 690
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba73a35ce8f6f347b9d56e1a5fc3abd
+      internalID: -306377620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 654
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a617192c107934cbb67ffdd1b0537a
+      internalID: 506083835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 654
+        width: 60
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b329398c8537104eaff8f58db05cb07
+      internalID: -693840372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 662
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8fbf613a851874ca410481fbbe4e9a
+      internalID: 2145198634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 662
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d7461a844a3c4f84540975277b9c1
+      internalID: -989604244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 636
+        width: 64
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d8f665798134498fa7073b2e4bd81
+      internalID: 885211716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 618
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbc6577993915244940f73d5b083057
+      internalID: 1045351879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 636
+        width: 52
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183fe39b8a020d94bb997d7d1dc0d030
+      internalID: -1748650429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 618
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affadd4acad57604eb8a9d2870754759
+      internalID: 865059039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b52336df5ec2a4cac77af072f65445
+      internalID: -1707620352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 562
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3f1f6c2cba237428ed7b9c309c9440
+      internalID: 1320640926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 562
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fb9e6e450a713408c0a8775756c77f
+      internalID: 545247730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 562
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f99a4cc479b74c90f6e9239d16999
+      internalID: -201390829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 562
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94073dbf9a2478c4e85d59b451a8b030
+      internalID: -594384145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 552
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf30541f507604bb46870097a58d6f
+      internalID: -1141160961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 514
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcc7b0b01e303840be82705775e46bd
+      internalID: -1538240391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 488
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbe6b14038697240ab0881e02edeb73
+      internalID: -817574586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 512
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f46edcf7da18a14983408df3c27fa23
+      internalID: -1291793244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 466
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1235f3536e7f3da4faee22bb2594c3d0
+      internalID: 640615602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 512
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af00d953398d63428e5786fb216ed5b
+      internalID: 780401742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232303abaf40d534e8a04c061ac0288b
+      internalID: 1165654663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 482
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cae02cf0efca4646b0691d4a81daa0b
+      internalID: -238813903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 456
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b895a89bc684984a9738ff52c23be71
+      internalID: -427383837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 462
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c439e595a1c18e43ac52430284e9b61
+      internalID: 1075943177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 484
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8476a625929cd284e8a716353e139be7
+      internalID: -848671292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 466
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1860f52fb33cea240a5272ab8b74b75e
+      internalID: 812481598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 462
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2357f00adbf514d95d7e44c7a441b5
+      internalID: 1679183315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 462
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c76d73bd3fdea4e8fb61cf55568f20
+      internalID: 563280300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 490
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c72a0a92a2dc443af7f2972ff52794
+      internalID: 1506620113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 450
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc0547cdfd4f7b45b91eef7d58ae9fa
+      internalID: 1180616692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 448
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df5bfa0d40af7478f78d7b532535f1
+      internalID: -372835496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 452
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f05bafdf9099b4a934e76ba84287d6
+      internalID: -1040790333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 458
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc31e5f9431f84ab14988ba65b86af
+      internalID: 1900739920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 418
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d99f61e62e1684388edb0f02826417
+      internalID: -1952713589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 392
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367109fc1fb1c254baa881fba57e31a9
+      internalID: 81546635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 416
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68afccb7bafdd0840af514dcd0341da6
+      internalID: -98444928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 402
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c5bce8a03fbf34a9fb6d96e9baa330
+      internalID: 928345525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 398
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af23e597bdad70247a0b60e916b4079a
+      internalID: -1740930389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 386
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32360541304e5014a92cea2a89a56c08
+      internalID: -1710065778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 362
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4307946ec0fb4144bac303fbd1481929
+      internalID: 886358362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 362
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860a31f96716cc946a7eb6e341b39c78
+      internalID: -5391724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 404
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9fecb784e6964458aaf6caf9c37efb
+      internalID: 359731855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 386
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb88575c9d27a4eb211f6bfd83ded0
+      internalID: 1780677592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 360
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320abdf9dd7055d4aa4510850535c776
+      internalID: -786178488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 354
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a78e99b4c9b0b479c102cafffa7bbf
+      internalID: 136671776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 352
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20dc8fcf7753794ebc12496220a5cc8
+      internalID: -1994151539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 338
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e21c52d6b72e574484faedeacad1429
+      internalID: 707318360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 334
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d467059c30dd9642b041208dd635dc3
+      internalID: -2127037589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 322
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4141702992c38488d6f61429cf005b
+      internalID: -1512892867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 340
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaa8580410806040a64ee31915f2653
+      internalID: 2080554783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 326
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f54440a709454abc706033d1b0c1d
+      internalID: -555823938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 326
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6895db29993e2e84280acefad1a43862
+      internalID: -2052680248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 296
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d496aee29de1c743977d521d9148789
+      internalID: -1440763106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3fcfdb1330104d90e54ce074df45d
+      internalID: -1940523313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 266
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3740ebfb4819e714198e1f80db2590e2
+      internalID: -825384493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_177
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 266
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395dfa5675732a44587b01425b8cdeeb
+      internalID: 860999508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483773f512c80d4ca10e755811f270b
+      internalID: -1473690027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_179
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 256
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad7222db02438649a1b2d7ea2721909
+      internalID: 1427931591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_180
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 264
+        width: 102
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe423f3d53d964aa3b3aaafe15c6d0
+      internalID: 1595313865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_181
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aacc396bd7e823498ebc138ed8a68c0
+      internalID: 2065484885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_182
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 276
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8923cd8eee060d4683f56207d976029
+      internalID: 589988526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_183
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 200
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b01ef8e8f8ed5d4088321d8af71b2ab
+      internalID: -935882179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_184
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 200
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e274525367845a741ae918dcd745098f
+      internalID: -1385709840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_185
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 54
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29070372f31c30c4b996f3a116216aef
+      internalID: 1646541731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_186
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 54
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd0a83f872f0cf41960be45649d548d
+      internalID: -616305140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_187
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 96
+        width: 54
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab858292a8fbf49a173bd27788833a
+      internalID: -2137135157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_188
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 162
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd38eac368f59214280a6b08550de886
+      internalID: -1456719538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_189
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 162
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aea4e40d72edd143b63c17d6eb643bc
+      internalID: 115929198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_190
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 194
+        width: 128
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4159c8af9f003478328780714345a7
+      internalID: -1850827656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_191
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c8b6704f3155a4f87a4b5ca83365af
+      internalID: -1066915656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_192
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 168
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de609ed6614ce1a4b82d78437871b471
+      internalID: 476859839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_193
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 164
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4774d38669fe2f4c8380eb39a60081e
+      internalID: -245444896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_194
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 164
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d7fc2c51f1aef4fbb06b679f434506
+      internalID: 802866031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_195
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 164
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a502d3f377c1964b9ffa8c93b440b56
+      internalID: 173185767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_196
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 114
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb198efd279123d4a856a5fdf96fd1c5
+      internalID: -2115769980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_197
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 66
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53fecb85af089a4c93f862b15c5c528
+      internalID: -1833535346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_198
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 66
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f82baac7dd47b4882f0b65c3401633
+      internalID: -2099167239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_199
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 100
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0167c1a8de10bd4a8d1b32be3036423
+      internalID: 62023896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_200
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 100
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293f849e85217a4f8c590e017c1f60c
+      internalID: 1514370184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_201
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 120
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d74b2204bede4788174aa1b550f49
+      internalID: -2105317857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_202
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 18
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933bfa3baf2e0148a79fca126b515f6
+      internalID: -617706165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_203
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 18
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a91e83d38d7e546943ea125980eddf
+      internalID: -900925934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Music_and_sport_Black_Shadow_32x32_204
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 18
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4020418c8c66354b85f554f465fc823
+      internalID: -716283060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      6_Music_and_sport_Black_Shadow_32x32_77: -997047954
+      6_Music_and_sport_Black_Shadow_32x32_157: -98444928
+      6_Music_and_sport_Black_Shadow_32x32_104: 1599614945
+      6_Music_and_sport_Black_Shadow_32x32_188: -1456719538
+      6_Music_and_sport_Black_Shadow_32x32_60: -227627346
+      6_Music_and_sport_Black_Shadow_32x32_66: 1748095140
+      6_Music_and_sport_Black_Shadow_32x32_130: 865059039
+      6_Music_and_sport_Black_Shadow_32x32_110: 1247273205
+      6_Music_and_sport_Black_Shadow_32x32_160: -1710065778
+      6_Music_and_sport_Black_Shadow_32x32_31: 1180663773
+      6_Music_and_sport_Black_Shadow_32x32_15: -1650245564
+      6_Music_and_sport_Black_Shadow_32x32_28: 1447900082
+      6_Music_and_sport_Black_Shadow_32x32_79: 959136552
+      6_Music_and_sport_Black_Shadow_32x32_120: 1462195792
+      6_Music_and_sport_Black_Shadow_32x32_190: -1850827656
+      6_Music_and_sport_Black_Shadow_32x32_150: 1506620113
+      6_Music_and_sport_Black_Shadow_32x32_70: 146788347
+      6_Music_and_sport_Black_Shadow_32x32_148: 1679183315
+      6_Music_and_sport_Black_Shadow_32x32_63: -1184232777
+      6_Music_and_sport_Black_Shadow_32x32_203: -900925934
+      6_Music_and_sport_Black_Shadow_32x32_53: 1451791251
+      6_Music_and_sport_Black_Shadow_32x32_164: 1780677592
+      6_Music_and_sport_Black_Shadow_32x32_161: 886358362
+      6_Music_and_sport_Black_Shadow_32x32_183: -935882179
+      6_Music_and_sport_Black_Shadow_32x32_6: 911633507
+      6_Music_and_sport_Black_Shadow_32x32_4: -1758773709
+      6_Music_and_sport_Black_Shadow_32x32_50: -1808503374
+      6_Music_and_sport_Black_Shadow_32x32_57: -1328133757
+      6_Music_and_sport_Black_Shadow_32x32_12: 966377012
+      6_Music_and_sport_Black_Shadow_32x32_100: 1531467056
+      6_Music_and_sport_Black_Shadow_32x32_137: -1538240391
+      6_Music_and_sport_Black_Shadow_32x32_49: -982171889
+      6_Music_and_sport_Black_Shadow_32x32_83: -221036566
+      6_Music_and_sport_Black_Shadow_32x32_39: -169993344
+      6_Music_and_sport_Black_Shadow_32x32_133: 545247730
+      6_Music_and_sport_Black_Shadow_32x32_48: 33154234
+      6_Music_and_sport_Black_Shadow_32x32_193: -245444896
+      6_Music_and_sport_Black_Shadow_32x32_141: 780401742
+      6_Music_and_sport_Black_Shadow_32x32_119: -735373007
+      6_Music_and_sport_Black_Shadow_32x32_0: 938826444
+      6_Music_and_sport_Black_Shadow_32x32_2: 1577720022
+      6_Music_and_sport_Black_Shadow_32x32_179: 1427931591
+      6_Music_and_sport_Black_Shadow_32x32_3: 2135235588
+      6_Music_and_sport_Black_Shadow_32x32_25: 1758941916
+      6_Music_and_sport_Black_Shadow_32x32_142: 1165654663
+      6_Music_and_sport_Black_Shadow_32x32_35: -449498069
+      6_Music_and_sport_Black_Shadow_32x32_78: 1659400274
+      6_Music_and_sport_Black_Shadow_32x32_84: 1029755879
+      6_Music_and_sport_Black_Shadow_32x32_52: 1615064371
+      6_Music_and_sport_Black_Shadow_32x32_147: 812481598
+      6_Music_and_sport_Black_Shadow_32x32_182: 589988526
+      6_Music_and_sport_Black_Shadow_32x32_171: 2080554783
+      6_Music_and_sport_Black_Shadow_32x32_1: -2048511660
+      6_Music_and_sport_Black_Shadow_32x32_72: 1129438850
+      6_Music_and_sport_Black_Shadow_32x32_89: 1556078280
+      6_Music_and_sport_Black_Shadow_32x32_105: -101955260
+      6_Music_and_sport_Black_Shadow_32x32_149: 563280300
+      6_Music_and_sport_Black_Shadow_32x32_185: 1646541731
+      6_Music_and_sport_Black_Shadow_32x32_131: -1707620352
+      6_Music_and_sport_Black_Shadow_32x32_202: -617706165
+      6_Music_and_sport_Black_Shadow_32x32_88: -265738387
+      6_Music_and_sport_Black_Shadow_32x32_139: -1291793244
+      6_Music_and_sport_Black_Shadow_32x32_168: 707318360
+      6_Music_and_sport_Black_Shadow_32x32_174: -1440763106
+      6_Music_and_sport_Black_Shadow_32x32_16: 1937525660
+      6_Music_and_sport_Black_Shadow_32x32_40: -1721007786
+      6_Music_and_sport_Black_Shadow_32x32_82: -923803588
+      6_Music_and_sport_Black_Shadow_32x32_123: 506083835
+      6_Music_and_sport_Black_Shadow_32x32_102: 2081878409
+      6_Music_and_sport_Black_Shadow_32x32_116: -455488966
+      6_Music_and_sport_Black_Shadow_32x32_175: -1940523313
+      6_Music_and_sport_Black_Shadow_32x32_186: -616305140
+      6_Music_and_sport_Black_Shadow_32x32_146: -848671292
+      6_Music_and_sport_Black_Shadow_32x32_94: -429704062
+      6_Music_and_sport_Black_Shadow_32x32_154: 1900739920
+      6_Music_and_sport_Black_Shadow_32x32_19: 1821788856
+      6_Music_and_sport_Black_Shadow_32x32_41: 1510951368
+      6_Music_and_sport_Black_Shadow_32x32_103: -53150393
+      6_Music_and_sport_Black_Shadow_32x32_73: -459261713
+      6_Music_and_sport_Black_Shadow_32x32_58: 755926784
+      6_Music_and_sport_Black_Shadow_32x32_134: -201390829
+      6_Music_and_sport_Black_Shadow_32x32_176: -825384493
+      6_Music_and_sport_Black_Shadow_32x32_23: -404955090
+      6_Music_and_sport_Black_Shadow_32x32_138: -817574586
+      6_Music_and_sport_Black_Shadow_32x32_152: -372835496
+      6_Music_and_sport_Black_Shadow_32x32_158: 928345525
+      6_Music_and_sport_Black_Shadow_32x32_192: 476859839
+      6_Music_and_sport_Black_Shadow_32x32_65: -1322824213
+      6_Music_and_sport_Black_Shadow_32x32_61: -1668305869
+      6_Music_and_sport_Black_Shadow_32x32_67: -768702645
+      6_Music_and_sport_Black_Shadow_32x32_145: 1075943177
+      6_Music_and_sport_Black_Shadow_32x32_129: -1748650429
+      6_Music_and_sport_Black_Shadow_32x32_62: -1875502597
+      6_Music_and_sport_Black_Shadow_32x32_177: 860999508
+      6_Music_and_sport_Black_Shadow_32x32_181: 2065484885
+      6_Music_and_sport_Black_Shadow_32x32_155: -1952713589
+      6_Music_and_sport_Black_Shadow_32x32_126: -989604244
+      6_Music_and_sport_Black_Shadow_32x32_81: 202086623
+      6_Music_and_sport_Black_Shadow_32x32_165: -786178488
+      6_Music_and_sport_Black_Shadow_32x32_112: 738484485
+      6_Music_and_sport_Black_Shadow_32x32_33: -1339527810
+      6_Music_and_sport_Black_Shadow_32x32_26: -1640417682
+      6_Music_and_sport_Black_Shadow_32x32_43: -774072405
+      6_Music_and_sport_Black_Shadow_32x32_132: 1320640926
+      6_Music_and_sport_Black_Shadow_32x32_121: -590052762
+      6_Music_and_sport_Black_Shadow_32x32_125: 2145198634
+      6_Music_and_sport_Black_Shadow_32x32_127: 885211716
+      6_Music_and_sport_Black_Shadow_32x32_17: -2093429699
+      6_Music_and_sport_Black_Shadow_32x32_195: 173185767
+      6_Music_and_sport_Black_Shadow_32x32_18: 1091713763
+      6_Music_and_sport_Black_Shadow_32x32_56: -1085339545
+      6_Music_and_sport_Black_Shadow_32x32_184: -1385709840
+      6_Music_and_sport_Black_Shadow_32x32_198: -2099167239
+      6_Music_and_sport_Black_Shadow_32x32_204: -716283060
+      6_Music_and_sport_Black_Shadow_32x32_5: -854695572
+      6_Music_and_sport_Black_Shadow_32x32_200: 1514370184
+      6_Music_and_sport_Black_Shadow_32x32_76: -330753521
+      6_Music_and_sport_Black_Shadow_32x32_106: -377372498
+      6_Music_and_sport_Black_Shadow_32x32_93: 270798560
+      6_Music_and_sport_Black_Shadow_32x32_71: 1668625119
+      6_Music_and_sport_Black_Shadow_32x32_115: 1628822442
+      6_Music_and_sport_Black_Shadow_32x32_162: -5391724
+      6_Music_and_sport_Black_Shadow_32x32_92: 839252391
+      6_Music_and_sport_Black_Shadow_32x32_135: -594384145
+      6_Music_and_sport_Black_Shadow_32x32_55: 430719440
+      6_Music_and_sport_Black_Shadow_32x32_166: 136671776
+      6_Music_and_sport_Black_Shadow_32x32_99: 320292388
+      6_Music_and_sport_Black_Shadow_32x32_118: -933986033
+      6_Music_and_sport_Black_Shadow_32x32_8: -16101761
+      6_Music_and_sport_Black_Shadow_32x32_189: 115929198
+      6_Music_and_sport_Black_Shadow_32x32_46: 980532488
+      6_Music_and_sport_Black_Shadow_32x32_169: -2127037589
+      6_Music_and_sport_Black_Shadow_32x32_167: -1994151539
+      6_Music_and_sport_Black_Shadow_32x32_178: -1473690027
+      6_Music_and_sport_Black_Shadow_32x32_29: -250658335
+      6_Music_and_sport_Black_Shadow_32x32_136: -1141160961
+      6_Music_and_sport_Black_Shadow_32x32_173: -2052680248
+      6_Music_and_sport_Black_Shadow_32x32_75: -1806232351
+      6_Music_and_sport_Black_Shadow_32x32_117: 117748709
+      6_Music_and_sport_Black_Shadow_32x32_96: 1471393550
+      6_Music_and_sport_Black_Shadow_32x32_22: 719684907
+      6_Music_and_sport_Black_Shadow_32x32_69: 2141088456
+      6_Music_and_sport_Black_Shadow_32x32_91: 957275462
+      6_Music_and_sport_Black_Shadow_32x32_20: -973719848
+      6_Music_and_sport_Black_Shadow_32x32_9: 33514257
+      6_Music_and_sport_Black_Shadow_32x32_114: -679793015
+      6_Music_and_sport_Black_Shadow_32x32_27: 716038315
+      6_Music_and_sport_Black_Shadow_32x32_34: -1995098086
+      6_Music_and_sport_Black_Shadow_32x32_74: -340603535
+      6_Music_and_sport_Black_Shadow_32x32_113: -1428200826
+      6_Music_and_sport_Black_Shadow_32x32_44: -646886144
+      6_Music_and_sport_Black_Shadow_32x32_170: -1512892867
+      6_Music_and_sport_Black_Shadow_32x32_194: 802866031
+      6_Music_and_sport_Black_Shadow_32x32_86: -655492808
+      6_Music_and_sport_Black_Shadow_32x32_32: -1469084041
+      6_Music_and_sport_Black_Shadow_32x32_128: 1045351879
+      6_Music_and_sport_Black_Shadow_32x32_80: -1356813232
+      6_Music_and_sport_Black_Shadow_32x32_59: -46786741
+      6_Music_and_sport_Black_Shadow_32x32_153: -1040790333
+      6_Music_and_sport_Black_Shadow_32x32_13: -1197236820
+      6_Music_and_sport_Black_Shadow_32x32_42: 1810851850
+      6_Music_and_sport_Black_Shadow_32x32_51: 1858068914
+      6_Music_and_sport_Black_Shadow_32x32_124: -693840372
+      6_Music_and_sport_Black_Shadow_32x32_109: 1385395163
+      6_Music_and_sport_Black_Shadow_32x32_45: 1672903361
+      6_Music_and_sport_Black_Shadow_32x32_156: 81546635
+      6_Music_and_sport_Black_Shadow_32x32_143: -238813903
+      6_Music_and_sport_Black_Shadow_32x32_140: 640615602
+      6_Music_and_sport_Black_Shadow_32x32_159: -1740930389
+      6_Music_and_sport_Black_Shadow_32x32_24: -372132778
+      6_Music_and_sport_Black_Shadow_32x32_107: 922319222
+      6_Music_and_sport_Black_Shadow_32x32_199: 62023896
+      6_Music_and_sport_Black_Shadow_32x32_97: -662077931
+      6_Music_and_sport_Black_Shadow_32x32_201: -2105317857
+      6_Music_and_sport_Black_Shadow_32x32_95: -1778526883
+      6_Music_and_sport_Black_Shadow_32x32_30: -267946112
+      6_Music_and_sport_Black_Shadow_32x32_187: -2137135157
+      6_Music_and_sport_Black_Shadow_32x32_122: -306377620
+      6_Music_and_sport_Black_Shadow_32x32_54: 446409785
+      6_Music_and_sport_Black_Shadow_32x32_197: -1833535346
+      6_Music_and_sport_Black_Shadow_32x32_108: 1420231888
+      6_Music_and_sport_Black_Shadow_32x32_144: -427383837
+      6_Music_and_sport_Black_Shadow_32x32_36: 697617148
+      6_Music_and_sport_Black_Shadow_32x32_21: -575823313
+      6_Music_and_sport_Black_Shadow_32x32_64: -1323571352
+      6_Music_and_sport_Black_Shadow_32x32_68: -1403774250
+      6_Music_and_sport_Black_Shadow_32x32_180: 1595313865
+      6_Music_and_sport_Black_Shadow_32x32_163: 359731855
+      6_Music_and_sport_Black_Shadow_32x32_90: 995128163
+      6_Music_and_sport_Black_Shadow_32x32_85: -1389981908
+      6_Music_and_sport_Black_Shadow_32x32_87: -1424672939
+      6_Music_and_sport_Black_Shadow_32x32_14: -2019601607
+      6_Music_and_sport_Black_Shadow_32x32_191: -1066915656
+      6_Music_and_sport_Black_Shadow_32x32_98: 40014290
+      6_Music_and_sport_Black_Shadow_32x32_151: 1180616692
+      6_Music_and_sport_Black_Shadow_32x32_10: 944546029
+      6_Music_and_sport_Black_Shadow_32x32_101: 428657532
+      6_Music_and_sport_Black_Shadow_32x32_7: -1877441680
+      6_Music_and_sport_Black_Shadow_32x32_37: 2112434407
+      6_Music_and_sport_Black_Shadow_32x32_11: 770385513
+      6_Music_and_sport_Black_Shadow_32x32_196: -2115769980
+      6_Music_and_sport_Black_Shadow_32x32_111: -244991619
+      6_Music_and_sport_Black_Shadow_32x32_38: -865603693
+      6_Music_and_sport_Black_Shadow_32x32_172: -555823938
+      6_Music_and_sport_Black_Shadow_32x32_47: 1563956149
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

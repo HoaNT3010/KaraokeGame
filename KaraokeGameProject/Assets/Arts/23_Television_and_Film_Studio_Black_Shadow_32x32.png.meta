@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: e40dd453112eff84099a150c3cd09293
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 386
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ddbcef3db48a74e968af5c38e59e8b
+      internalID: 701935627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 386
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf2e41c51b6e73488a35900beabb6fd
+      internalID: 2017228545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 392
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68c82b1f3f3f4e4a91593a344ff27b0
+      internalID: -1817191289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 368
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f618c6267420249b32617b5af989da
+      internalID: 1305956154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c88bb57ef363ac4fa3c3db3aa3f4b68
+      internalID: -178847204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 416
+        width: 164
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b530ae2ed0543429db28f2c0a6e617
+      internalID: -1475270618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 372
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b829a5a6dd2e6274fa5decd500104370
+      internalID: -1977433023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 372
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3183d5801b78f4e92ff06eb2279e38
+      internalID: 2063840440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 368
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4cb5a7513b6dd46908a8f589354ee3
+      internalID: 745423859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 384
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa020d7b277f68a4c9ee3b30d688f990
+      internalID: -874375439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 322
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdae4f08ee733b4eb98c8610a38164d
+      internalID: -1215484198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 322
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcae4bdbbde2d945a2a337916ee87a0
+      internalID: 840983514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 322
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92340f3b70156f546863859ab7e136e1
+      internalID: -1839558009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 322
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15faf9f71f755aa478f080a2fa4bf3f1
+      internalID: 101313168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 352
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a26f0083ae83e4b92b2c9d3f9ac808
+      internalID: -1718469722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 192
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9679f670a3fd25c469b205c439e20e51
+      internalID: 347665314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 292
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf21bae26f283a4ca80682a0d14c09a
+      internalID: -1572249193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 292
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e870df49238c8c742a437f819d8d46e0
+      internalID: 497879367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 308
+        width: 156
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8e88ea2f342fc4b9dd906e980d67e5
+      internalID: 1118843525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065ecd38dcc509045aa50a3e8d5b2543
+      internalID: -553332060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 228
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07f16b9543d6244a96e3506114032a
+      internalID: 2046928967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 228
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f65b864061bf4498a2e3ce5dfbf1dc
+      internalID: 608982084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 244
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bf136b303cfb147a7095361f1e8706
+      internalID: -1304386863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 244
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e5cb5b438735642b54e97e84c5f3bd
+      internalID: -1342172972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b4b052c0164cf4d998d8d0768433ca
+      internalID: -1304797628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 180
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7248215d0f7e98b46863490505d1d4d9
+      internalID: -424465243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 132
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eeea341b8828e4590686eb16ea0918
+      internalID: -2009210496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 130
+        width: 128
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0e6f826ad9fac43ad908263c84f112
+      internalID: 1310397876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 154
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136325ebfbe31da4a83cc8f9a8005f32
+      internalID: -1180496870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 68
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884f187d5b69f61408f3497b32a253c0
+      internalID: 720161734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 128
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af86f1b512ca1ad48868daa856082e02
+      internalID: -2047312746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 90
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7963456d09d345ac5a2a5dadda6dc
+      internalID: -1777593960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec9e5c8174ad8c4cb6d937ac42a88f6
+      internalID: 1889949335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 128
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31113e77ab4fff4f860db678a19447d
+      internalID: 1134506606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23_Television_and_Film_Studio_Black_Shadow_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 26
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974e0dce98b6684aa13d5fe28778308
+      internalID: -1092943256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      23_Television_and_Film_Studio_Black_Shadow_32x32_28: -1180496870
+      23_Television_and_Film_Studio_Black_Shadow_32x32_24: -1304797628
+      23_Television_and_Film_Studio_Black_Shadow_32x32_11: 840983514
+      23_Television_and_Film_Studio_Black_Shadow_32x32_25: -424465243
+      23_Television_and_Film_Studio_Black_Shadow_32x32_33: 1134506606
+      23_Television_and_Film_Studio_Black_Shadow_32x32_3: 1305956154
+      23_Television_and_Film_Studio_Black_Shadow_32x32_6: -1977433023
+      23_Television_and_Film_Studio_Black_Shadow_32x32_0: 701935627
+      23_Television_and_Film_Studio_Black_Shadow_32x32_31: -1777593960
+      23_Television_and_Film_Studio_Black_Shadow_32x32_30: -2047312746
+      23_Television_and_Film_Studio_Black_Shadow_32x32_1: 2017228545
+      23_Television_and_Film_Studio_Black_Shadow_32x32_23: -1342172972
+      23_Television_and_Film_Studio_Black_Shadow_32x32_18: 1118843525
+      23_Television_and_Film_Studio_Black_Shadow_32x32_15: 347665314
+      23_Television_and_Film_Studio_Black_Shadow_32x32_27: 1310397876
+      23_Television_and_Film_Studio_Black_Shadow_32x32_34: -1092943256
+      23_Television_and_Film_Studio_Black_Shadow_32x32_19: -553332060
+      23_Television_and_Film_Studio_Black_Shadow_32x32_22: -1304386863
+      23_Television_and_Film_Studio_Black_Shadow_32x32_9: -874375439
+      23_Television_and_Film_Studio_Black_Shadow_32x32_17: 497879367
+      23_Television_and_Film_Studio_Black_Shadow_32x32_26: -2009210496
+      23_Television_and_Film_Studio_Black_Shadow_32x32_21: 608982084
+      23_Television_and_Film_Studio_Black_Shadow_32x32_29: 720161734
+      23_Television_and_Film_Studio_Black_Shadow_32x32_10: -1215484198
+      23_Television_and_Film_Studio_Black_Shadow_32x32_12: -1839558009
+      23_Television_and_Film_Studio_Black_Shadow_32x32_14: -1718469722
+      23_Television_and_Film_Studio_Black_Shadow_32x32_2: -1817191289
+      23_Television_and_Film_Studio_Black_Shadow_32x32_5: -1475270618
+      23_Television_and_Film_Studio_Black_Shadow_32x32_32: 1889949335
+      23_Television_and_Film_Studio_Black_Shadow_32x32_7: 2063840440
+      23_Television_and_Film_Studio_Black_Shadow_32x32_13: 101313168
+      23_Television_and_Film_Studio_Black_Shadow_32x32_4: -178847204
+      23_Television_and_Film_Studio_Black_Shadow_32x32_20: 2046928967
+      23_Television_and_Film_Studio_Black_Shadow_32x32_8: 745423859
+      23_Television_and_Film_Studio_Black_Shadow_32x32_16: -1572249193
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
