@@ -16,4 +16,28 @@ public class CharacterKeybinds
     public KeyCode MoveLeft { get => moveLeft; set => moveLeft = value; }
     public KeyCode MoveRight { get => moveRight; set => moveRight = value; }
     public KeyCode RunKey { get => runKey; set => runKey = value; }
+
+    private float GetAxisWithKey(KeyCode negative, KeyCode positive)
+    {
+        float axis = 0.0f;
+        if (Input.GetKey(negative))
+        {
+            axis -= 1.0f;
+        }
+        if (Input.GetKey(positive))
+        {
+            axis += 1.0f;
+        }
+        return axis;
+    }
+
+    public float GetHorizontalAxisInput()
+    {
+        return GetAxisWithKey(MoveLeft, MoveRight);
+    }
+
+    public float GetVerticalAxisInput()
+    {
+        return GetAxisWithKey(MoveDown, MoveUp);
+    }
 }
