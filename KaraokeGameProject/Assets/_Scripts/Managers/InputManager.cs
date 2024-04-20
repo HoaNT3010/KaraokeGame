@@ -1,59 +1,46 @@
-using System;
-using System.IO;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InputManager : Singleton<InputManager>
 {
-    private const string CHARACTER_KEYBINDS_SAVE_PATH = "/CharacterInput.txt";
-    public CharacterKeybinds CharacterKeybinds;
+    // Raw Inputs
+    public Vector2 MoveInput { get; private set; }
+    public bool RunJustPressed { get; private set; }
+    public bool RunBeingHeld { get; private set; }
+    public bool RunReleased { get; private set; }
+    public bool InteractInput { get; private set; }
+    // Player Input
+    private PlayerInput playerInput;
+    // Input Actions
+    private InputAction moveAction;
+    private InputAction runAction;
+    private InputAction interactAction;
 
     public override void Awake()
     {
         base.Awake();
-        LoadCharacterKeybinds();
+        playerInput = GetComponent<PlayerInput>();
+        SetInputActions();
     }
 
-    [ContextMenu("Save Character Keybinds")]
-    public void SaveCharacterKeybinds()
+    private void Update()
     {
-        string saveData = JsonUtility.ToJson(CharacterKeybinds, true);
-        string filePath = string.Concat(Application.persistentDataPath, CHARACTER_KEYBINDS_SAVE_PATH);
-        try
-        {
-            File.WriteAllText(filePath, saveData);
-            Debug.Log("Character keybinds saved successfully.");
-        }
-        catch (Exception e)
-        {
-            Debug.LogError($"Failed to save character keybinds: {e.Message}");
-        }
+        UpdateInputs();
     }
 
-    [ContextMenu("Load Character Keybinds")]
-    public void LoadCharacterKeybinds()
+    private void SetInputActions()
     {
-        string filePath = string.Concat(Application.persistentDataPath, CHARACTER_KEYBINDS_SAVE_PATH);
-        if (File.Exists(filePath))
-        {
-            try
-            {
-                string savedData = File.ReadAllText(filePath);
-                CharacterKeybinds savedKeybinds = JsonUtility.FromJson<CharacterKeybinds>(savedData);
-                if (savedKeybinds != null)
-                {
-                    CharacterKeybinds = savedKeybinds;
-                    Debug.Log("Character keybinds loaded successfully.");
-                }
-            }
-            catch (Exception e)
-            {
-                Debug.LogError($"Failed to load character keybinds: {e.Message}");
-            }
-        }
-        else
-        {
-            CharacterKeybinds = new CharacterKeybinds();
-            Debug.Log("Saved character keybinds not exists. Initialize new character keybinds.");
-        }
+        moveAction = playerInput.actions["Movement"];
+        runAction = playerInput.actions["Run"];
+        interactAction = playerInput.actions["Interact"];
+    }
+
+    private void UpdateInputs()
+    {
+        MoveInput = moveAction.ReadValue<Vector2>();
+        RunJustPressed = runAction.WasPressedThisFrame();
+        RunBeingHeld = runAction.IsPressed();
+        RunReleased = runAction.WasReleasedThisFrame();
+        InteractInput = interactAction.WasPressedThisFrame();
     }
 }
