@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,6 +97,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -11383,9 +11395,9 @@ TextureImporter:
       John_32x32_441: 655596564
       John_32x32_153: -1316484760
       John_32x32_4: 1246206670
-      John_32x32_142: -319859009
       John_32x32_231: -318905407
       John_32x32_443: 459630309
+      John_32x32_142: -319859009
       John_32x32_448: 456558467
       John_32x32_333: -179552992
       John_32x32_179: -902308844
@@ -11478,20 +11490,20 @@ TextureImporter:
       John_32x32_472: -2100307392
       John_32x32_111: -1422431705
       John_32x32_68: -1093741637
+      John_32x32_316: -597480791
       John_32x32_24: -54219335
       John_32x32_71: 1064785030
-      John_32x32_335: -220246542
-      John_32x32_316: -597480791
-      John_32x32_387: -163346130
+      John_32x32_425: -739915257
+      John_32x32_440: 2031639863
       John_32x32_96: -1460767186
       John_32x32_370: -1715052356
       John_32x32_138: 469822731
       John_32x32_337: 1895482101
-      John_32x32_425: -739915257
+      John_32x32_387: -163346130
       John_32x32_171: -1520747226
       John_32x32_331: -254755386
-      John_32x32_440: 2031639863
       John_32x32_511: -245501453
+      John_32x32_335: -220246542
       John_32x32_21: 1052744245
       John_32x32_516: -630523181
       John_32x32_152: -672656560
@@ -11507,11 +11519,11 @@ TextureImporter:
       John_32x32_36: 74944337
       John_32x32_264: -537989828
       John_32x32_498: -2059085612
-      John_32x32_522: -1326765154
+      John_32x32_526: -2019644428
       John_32x32_183: -887745973
+      John_32x32_522: -1326765154
       John_32x32_268: -487082360
       John_32x32_338: 1264007437
-      John_32x32_526: -2019644428
       John_32x32_292: 1392817033
       John_32x32_251: 1434444965
       John_32x32_76: -680478194
@@ -11629,26 +11641,26 @@ TextureImporter:
       John_32x32_485: 877651971
       John_32x32_325: 1223524647
       John_32x32_491: 643589545
+      John_32x32_360: -1626983988
       John_32x32_336: 1596715926
-      John_32x32_44: -1120725929
-      John_32x32_257: 797588325
-      John_32x32_174: -1565650796
-      John_32x32_308: -2072847495
       John_32x32_364: -277535271
+      John_32x32_174: -1565650796
+      John_32x32_44: -1120725929
+      John_32x32_308: -2072847495
       John_32x32_45: -995542301
       John_32x32_262: 91213900
       John_32x32_377: -1680898213
-      John_32x32_360: -1626983988
       John_32x32_373: 1708898788
       John_32x32_329: -767032717
       John_32x32_529: 292172058
       John_32x32_324: -1602734550
       John_32x32_62: -1993003432
       John_32x32_42: -638368607
-      John_32x32_53: 1921129694
       John_32x32_286: 891872958
+      John_32x32_53: 1921129694
       John_32x32_228: 791042398
       John_32x32_420: -355840969
+      John_32x32_257: 797588325
       John_32x32_282: -1780023050
       John_32x32_318: -1444697370
       John_32x32_434: 445739628
@@ -11658,11 +11670,11 @@ TextureImporter:
       John_32x32_339: -1074636776
       John_32x32_77: -1811346892
       John_32x32_144: -466329719
+      John_32x32_419: -424818500
       John_32x32_397: 1877014586
       John_32x32_330: 329781483
       John_32x32_284: 500358804
       John_32x32_169: -1148360182
-      John_32x32_419: -424818500
       John_32x32_444: -553772505
       John_32x32_348: 1344575165
       John_32x32_438: 698627735
