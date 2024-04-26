@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hoa.unity
     guid: be7823ac4de59df4b9ede90eeaea6090
+  - enabled: 1
+    path: Assets/Scenes/Minh.unity
+    guid: aca2181e52073c046b0e8a95e187c373
   m_configObjects: {}
