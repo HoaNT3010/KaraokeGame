@@ -9,10 +9,10 @@ public class VoiceRecorder : MonoBehaviour
     private bool isRecording;
     private string currentMicrophone = string.Empty;
     private float beginRecordTime;
+    private float recordingDuration;
 
     const int DEFAULT_SAMPLE_RATES = 44100;
-    const int MAX_RECORDING_DURATION_SECONDS = 300;
-    const int MAX_SAMPLES_COUNT = DEFAULT_SAMPLE_RATES * MAX_RECORDING_DURATION_SECONDS;
+    const int MAX_RECORDING_DURATION_SECONDS = 5;
 
     void Start()
     {
@@ -35,16 +35,17 @@ public class VoiceRecorder : MonoBehaviour
     }
 
     /// <summary>
-    /// Automatically stop and save the voice recording when the audio clip reach maximum length.
+    /// Automatically stop and save the voice recording when the audio clip reach maximum duration.
     /// </summary>
     private void AutomaticallyStopRecording()
     {
         // Check if only is recording player voice
         if (isRecording)
         {
-            if (Microphone.GetPosition(currentMicrophone) >= MAX_SAMPLES_COUNT)
+            recordingDuration -= Time.deltaTime;
+            if (recordingDuration <= 0f)
             {
-                Debug.Log("Recording has exceeds maximum length. Stop recording and save recorded data!");
+                Debug.Log("Recording has exceeds maximum length. Automatically stop and save recording!");
                 StopRecording();
             }
         }
@@ -81,6 +82,7 @@ public class VoiceRecorder : MonoBehaviour
         }
         Debug.Log("Start recording!");
         beginRecordTime = Time.time;
+        recordingDuration = MAX_RECORDING_DURATION_SECONDS;
         isRecording = true;
         Debug.Log("Begin recording at: " + beginRecordTime);
         audioSource.clip = Microphone.Start(currentMicrophone, true, MAX_RECORDING_DURATION_SECONDS, DEFAULT_SAMPLE_RATES);
