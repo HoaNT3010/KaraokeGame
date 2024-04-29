@@ -12,7 +12,7 @@ public class VoiceRecorder : MonoBehaviour
     private float recordingDuration;
 
     const int DEFAULT_SAMPLE_RATES = 44100;
-    const int MAX_RECORDING_DURATION_SECONDS = 5;
+    const int MAX_RECORDING_DURATION_SECONDS = 300;
 
     void Start()
     {
