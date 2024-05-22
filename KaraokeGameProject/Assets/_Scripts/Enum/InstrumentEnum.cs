@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets._Scripts.Enum
 {
-   public enum PianoNote
+    public enum Note
     {
         Do1,
         Do1S,
@@ -45,5 +45,15 @@ namespace Assets._Scripts.Enum
         La3S,
         Si3,
 
+    }
+
+    public enum InstrumentType
+    {
+        None,
+        Mic,
+        Piano,
+        Guitar,
+        Drum,
+        Bass
     }
 }
