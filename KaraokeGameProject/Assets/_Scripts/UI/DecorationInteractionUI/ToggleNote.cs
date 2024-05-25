@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ToggleNote : MonoBehaviour
 {
-    [SerializeField] PianoNote note;
+    [SerializeField] Note note;
 
-    public PianoNote Note { get => note; }
+    public Note Note { get => note; }
 }

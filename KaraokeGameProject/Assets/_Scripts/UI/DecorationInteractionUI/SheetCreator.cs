@@ -13,12 +13,15 @@ using MyUtils;
 using Slider = UnityEngine.UI.Slider;
 using Toggle = UnityEngine.UI.Toggle;
 using Newtonsoft.Json;
+using Assets._Scripts.Models;
 
-public class PianoSheetCreator : MonoBehaviour
+public class SheetCreator : MonoBehaviour
 {
-    [SerializeField] List<Toggle> pianoNoteButton = new();
+    [SerializeField] List<Toggle> NoteButton = new();
     [SerializedDictionary("Piano Note", "Piano Clip")]
-    public SerializedDictionary<PianoNote, AudioClip> pianoNoteAudio = new();
+
+    public SerializedDictionary<Note, AudioClip> PianoNoteAudio = new();
+
     [SerializeField] Slider tempoSlider;
     [SerializeField] int defaultTempo = 1;
     [SerializeField] TMP_InputField chordIndex;
@@ -29,21 +32,26 @@ public class PianoSheetCreator : MonoBehaviour
     [SerializeField] TextMeshProUGUI sheetScrollView;
 
     [SerializeField] AudioClip audioClipTest;
+    [SerializeField] TMP_Dropdown instrumentSelection;
 
-    private List<List<PianoNote>> pianoSheet = new();
+    int currentInstrument;
+
+    private Song song = new();
+
+    private List<List<Note>> pianoSheet = new();
 
     private int selectedChordIndex = 1;
     private int maxChordIndex = 1;
     private AudioSource audioSource;
     private Coroutine playCoroutine;
-    private List<List<PianoNote>> copyCache = new();
+    private List<List<Note>> copyCache = new();
     private int fromIndexValue = 1;
     private int toIndexValue = 1;
     private ExplorerUtils explorer = new();
 
     private void Start()
     {
-        pianoSheet.Add(new());
+        song.InstrumentSheet.Add(new());
         chordIndex.text = "" + selectedChordIndex;
         playAtIndex.text = chordIndex.text;
         tempoSlider.value = defaultTempo;
@@ -69,19 +77,19 @@ public class PianoSheetCreator : MonoBehaviour
         }
         if (selectedChordIndex > pianoSheet.Count)
         {
-            pianoSheet.Add(new List<PianoNote>());
-            foreach (var toggle in pianoNoteButton)
+            pianoSheet.Add(new List<Note>());
+            foreach (var toggle in NoteButton)
             {
                 toggle.isOn = false;
             }
         }
         else
         {
-            foreach (var toggle in pianoNoteButton)
+            foreach (var toggle in NoteButton)
             {
                 toggle.isOn = false;
             }
-            foreach (var toggle in pianoNoteButton)
+            foreach (var toggle in NoteButton)
             {
                 if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
                 {
@@ -125,11 +133,11 @@ public class PianoSheetCreator : MonoBehaviour
         }
         selectedChordIndex = chordIndexToJump;
         chordIndex.text = "" + selectedChordIndex;
-        foreach (var toggle in pianoNoteButton)
+        foreach (var toggle in NoteButton)
         {
             toggle.isOn = false;
         }
-        foreach (var toggle in pianoNoteButton)
+        foreach (var toggle in NoteButton)
         {
             if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
             {
@@ -150,19 +158,19 @@ public class PianoSheetCreator : MonoBehaviour
             }
             if (selectedChordIndex > pianoSheet.Count)
             {
-                pianoSheet.Add(new List<PianoNote>());
-                foreach (var toggle in pianoNoteButton)
+                pianoSheet.Add(new List<Note>());
+                foreach (var toggle in NoteButton)
                 {
                     toggle.isOn = false;
                 }
             }
             else
             {
-                foreach (var toggle in pianoNoteButton)
+                foreach (var toggle in NoteButton)
                 {
                     toggle.isOn = false;
                 }
-                foreach (var toggle in pianoNoteButton)
+                foreach (var toggle in NoteButton)
                 {
                     if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
                     {
@@ -173,7 +181,7 @@ public class PianoSheetCreator : MonoBehaviour
         }
         if (pianoSheet.Count < 1) pianoSheet.Add(new());
         pianoSheet[selectedChordIndex - 1].Clear();
-        foreach (var toggle in pianoNoteButton)
+        foreach (var toggle in NoteButton)
         {
             if (toggle.isOn)
             {
@@ -226,8 +234,8 @@ public class PianoSheetCreator : MonoBehaviour
         {
             foreach (var note in chord)
             {
-                //Debug.Log(pianoNoteAudio[note]);
-                audioSource.PlayOneShot(pianoNoteAudio[note]);
+                //Debug.Log(PianoNoteAudio[note]);
+                audioSource.PlayOneShot(PianoNoteAudio[note]);
             }
             yield return new WaitForSeconds(60 / tempoSlider.value);
         }
@@ -241,7 +249,7 @@ public class PianoSheetCreator : MonoBehaviour
             {
                 foreach (var note in pianoSheet[i])
                 {
-                    audioSource.PlayOneShot(pianoNoteAudio[note]);
+                    audioSource.PlayOneShot(PianoNoteAudio[note]);
                 }
                 yield return new WaitForSeconds(60 / tempoSlider.value);
             }
@@ -251,7 +259,7 @@ public class PianoSheetCreator : MonoBehaviour
 
     public void OnButtonClearClick()
     {
-        foreach (var toggle in pianoNoteButton)
+        foreach (var toggle in NoteButton)
         {
             toggle.isOn = false;
         }
@@ -334,7 +342,7 @@ public class PianoSheetCreator : MonoBehaviour
     public void OnButtonImportClick()
     {
         pianoSheet.Clear();
-        pianoSheet = explorer.OpenFileBrowser<List<List<PianoNote>>>();
+        pianoSheet = explorer.OpenFileBrowser<List<List<Note>>>();
         Debug.Log(JsonConvert.SerializeObject(pianoSheet[0]));
         PrintStatus();
         selectedChordIndex = 1;
@@ -355,16 +363,29 @@ public class PianoSheetCreator : MonoBehaviour
         //    + " | " + pianoSheet[selectedChordIndex - 1].Count);
     }
 
+    public void OnButtonChangeInstrumentClick()
+    {
 
+    }
+
+    public void OnButtonPlayWholeSongClick()
+    {
+
+    }
+
+    public void OnButtonPlayWholeSongAtClick()
+    {
+
+    }
 
 }
 
 [Serializable]
 public class SaveSheet
 {
-    [SerializeField] List<List<PianoNote>> pianoSheet = new();
+    [SerializeField] List<List<Note>> pianoSheet = new();
 
-    public SaveSheet(List<List<PianoNote>> pianoSheet)
+    public SaveSheet(List<List<Note>> pianoSheet)
     {
         this.pianoSheet = pianoSheet;
     }
