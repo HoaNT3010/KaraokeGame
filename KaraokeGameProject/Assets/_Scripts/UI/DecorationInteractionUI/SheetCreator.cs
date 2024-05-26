@@ -9,7 +9,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
-using MyUtils;
 using Slider = UnityEngine.UI.Slider;
 using Toggle = UnityEngine.UI.Toggle;
 using Newtonsoft.Json;
@@ -38,7 +37,7 @@ public class SheetCreator : MonoBehaviour
 
     private Song song = new();
 
-    private List<List<Note>> pianoSheet = new();
+    //private List<List<Note>> song.InstrumentSheet[0].Sheet = new();
 
     private int selectedChordIndex = 1;
     private int maxChordIndex = 1;
@@ -47,7 +46,7 @@ public class SheetCreator : MonoBehaviour
     private List<List<Note>> copyCache = new();
     private int fromIndexValue = 1;
     private int toIndexValue = 1;
-    private ExplorerUtils explorer = new();
+    //private ExplorerUtils explorer = new();
 
     private void Start()
     {
@@ -75,9 +74,9 @@ public class SheetCreator : MonoBehaviour
         {
             maxChordIndex = selectedChordIndex;
         }
-        if (selectedChordIndex > pianoSheet.Count)
+        if (selectedChordIndex > song.InstrumentSheet[0].Sheet.Count)
         {
-            pianoSheet.Add(new List<Note>());
+            song.InstrumentSheet[0].Sheet.Add(new List<Note>());
             foreach (var toggle in NoteButton)
             {
                 toggle.isOn = false;
@@ -91,7 +90,7 @@ public class SheetCreator : MonoBehaviour
             }
             foreach (var toggle in NoteButton)
             {
-                if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
+                if (song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
                 {
                     toggle.isOn = true;
                 }
@@ -120,16 +119,16 @@ public class SheetCreator : MonoBehaviour
     {
         int index = Int32.Parse(playAtIndex.text);
         if (index < 1) index = 1;
-        if (index > pianoSheet.Count) index = pianoSheet.Count;
+        if (index > song.InstrumentSheet[0].Sheet.Count) index = song.InstrumentSheet[0].Sheet.Count;
         playAtIndex.text = index.ToString();
     }
 
     public void JumpTo(int chordIndexToJump)
     {
         if (chordIndexToJump < 1) chordIndexToJump = 1;
-        if (chordIndexToJump > pianoSheet.Count)
+        if (chordIndexToJump > song.InstrumentSheet[0].Sheet.Count)
         {
-            chordIndexToJump = pianoSheet.Count;
+            chordIndexToJump = song.InstrumentSheet[0].Sheet.Count;
         }
         selectedChordIndex = chordIndexToJump;
         chordIndex.text = "" + selectedChordIndex;
@@ -139,7 +138,7 @@ public class SheetCreator : MonoBehaviour
         }
         foreach (var toggle in NoteButton)
         {
-            if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
+            if (song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
             {
                 toggle.isOn = true;
             }
@@ -156,9 +155,9 @@ public class SheetCreator : MonoBehaviour
             {
                 maxChordIndex = selectedChordIndex;
             }
-            if (selectedChordIndex > pianoSheet.Count)
+            if (selectedChordIndex > song.InstrumentSheet[0].Sheet.Count)
             {
-                pianoSheet.Add(new List<Note>());
+                song.InstrumentSheet[0].Sheet.Add(new List<Note>());
                 foreach (var toggle in NoteButton)
                 {
                     toggle.isOn = false;
@@ -172,20 +171,20 @@ public class SheetCreator : MonoBehaviour
                 }
                 foreach (var toggle in NoteButton)
                 {
-                    if (pianoSheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
+                    if (song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Contains(toggle.GetComponent<ToggleNote>().Note))
                     {
                         toggle.isOn = true;
                     }
                 }
             }
         }
-        if (pianoSheet.Count < 1) pianoSheet.Add(new());
-        pianoSheet[selectedChordIndex - 1].Clear();
+        if (song.InstrumentSheet[0].Sheet.Count < 1) song.InstrumentSheet[0].Sheet.Add(new());
+        song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Clear();
         foreach (var toggle in NoteButton)
         {
             if (toggle.isOn)
             {
-                pianoSheet[selectedChordIndex - 1].Add(toggle.GetComponent<ToggleNote>().Note);
+                song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Add(toggle.GetComponent<ToggleNote>().Note);
             }
         }
         UpdateSheetScrollView();
@@ -194,12 +193,12 @@ public class SheetCreator : MonoBehaviour
     public void UpdateSheetScrollView()
     {
         string text = "";
-        for (int i = 0; i < pianoSheet.Count; i++)
+        for (int i = 0; i < song.InstrumentSheet[0].Sheet.Count; i++)
         {
             text += (i + 1) + " | ";
-            for (int j = 0; j < pianoSheet[i].Count; j++)
+            for (int j = 0; j < song.InstrumentSheet[0].Sheet[i].Count; j++)
             {
-                text += " " + pianoSheet[i][j].ToString() + "+";
+                text += " " + song.InstrumentSheet[0].Sheet[i][j].ToString() + "+";
             }
             text = text.Remove(text.Length - 1);
             text += "\n";
@@ -230,7 +229,7 @@ public class SheetCreator : MonoBehaviour
 
     private IEnumerator PlayNote()
     {
-        foreach (var chord in pianoSheet)
+        foreach (var chord in song.InstrumentSheet[0].Sheet)
         {
             foreach (var note in chord)
             {
@@ -243,11 +242,11 @@ public class SheetCreator : MonoBehaviour
 
     private IEnumerator PlayAt(int index)
     {
-        if (index < pianoSheet.Count)
+        if (index < song.InstrumentSheet[0].Sheet.Count)
         {
-            for (int i = index - 1; i < pianoSheet.Count; i++)
+            for (int i = index - 1; i < song.InstrumentSheet[0].Sheet.Count; i++)
             {
-                foreach (var note in pianoSheet[i])
+                foreach (var note in song.InstrumentSheet[0].Sheet[i])
                 {
                     audioSource.PlayOneShot(PianoNoteAudio[note]);
                 }
@@ -268,22 +267,22 @@ public class SheetCreator : MonoBehaviour
 
     public void OnButtonInsertAboveClick()
     {
-        pianoSheet.Insert(selectedChordIndex - 1, new());
+        song.InstrumentSheet[0].Sheet.Insert(selectedChordIndex - 1, new());
         JumpTo(selectedChordIndex);
     }
 
     public void OnButtonInsertBelowClick()
     {
-        pianoSheet.Insert(selectedChordIndex, new());
+        song.InstrumentSheet[0].Sheet.Insert(selectedChordIndex, new());
         selectedChordIndex++;
         JumpTo(selectedChordIndex);
     }
 
     public void OnButtonDeleteRowClick()
     {
-        if (pianoSheet.Count > 1)
+        if (song.InstrumentSheet[0].Sheet.Count > 1)
         {
-            pianoSheet.RemoveAt(selectedChordIndex - 1);
+            song.InstrumentSheet[0].Sheet.RemoveAt(selectedChordIndex - 1);
             JumpTo(selectedChordIndex);
         }
     }
@@ -293,15 +292,15 @@ public class SheetCreator : MonoBehaviour
         fromIndexValue = Int32.Parse(fromIndex.text);
         toIndexValue = Int32.Parse(toIndex.text);
         if (fromIndexValue < 1) fromIndexValue = 1;
-        if (fromIndexValue > pianoSheet.Count) fromIndexValue = pianoSheet.Count;
+        if (fromIndexValue > song.InstrumentSheet[0].Sheet.Count) fromIndexValue = song.InstrumentSheet[0].Sheet.Count;
         if (toIndexValue < fromIndexValue) toIndexValue = fromIndexValue;
-        if (toIndexValue > pianoSheet.Count) toIndexValue = pianoSheet.Count;
+        if (toIndexValue > song.InstrumentSheet[0].Sheet.Count) toIndexValue = song.InstrumentSheet[0].Sheet.Count;
         fromIndex.text = fromIndexValue.ToString();
         toIndex.text = toIndexValue.ToString();
     }
     public void OnButtonCopyClick()
     {
-        copyCache = pianoSheet.GetRange(fromIndexValue - 1, toIndexValue - fromIndexValue + 1);
+        copyCache = song.InstrumentSheet[0].Sheet.GetRange(fromIndexValue - 1, toIndexValue - fromIndexValue + 1);
 
         var testString = fromIndexValue + " => " + toIndexValue + "\n";
         foreach (var item in copyCache)
@@ -320,7 +319,7 @@ public class SheetCreator : MonoBehaviour
         {
             foreach (var chord in copyCache)
             {
-                pianoSheet.Insert(selectedChordIndex, chord);
+                song.InstrumentSheet[0].Sheet.Insert(selectedChordIndex, chord);
                 selectedChordIndex++;
             }
             selectedChordIndex = Int32.Parse(chordIndex.text);
@@ -328,39 +327,39 @@ public class SheetCreator : MonoBehaviour
     }
     public void OnButtonDeleteClick()
     {
-        if (pianoSheet.Count <= 1) return;
+        if (song.InstrumentSheet[0].Sheet.Count <= 1) return;
         selectedChordIndex = fromIndexValue;
-        pianoSheet.RemoveRange(fromIndexValue - 1, toIndexValue - fromIndexValue + 1);
+        song.InstrumentSheet[0].Sheet.RemoveRange(fromIndexValue - 1, toIndexValue - fromIndexValue + 1);
         selectedChordIndex--;
         if (selectedChordIndex < 1) selectedChordIndex = 1;
-        if (pianoSheet.Count < 1) pianoSheet.Add(new());
-        Debug.Log(selectedChordIndex + " | " + pianoSheet.Count);
+        if (song.InstrumentSheet[0].Sheet.Count < 1) song.InstrumentSheet[0].Sheet.Add(new());
+        Debug.Log(selectedChordIndex + " | " + song.InstrumentSheet[0].Sheet.Count);
         OnSelectionIndexTextChange();
         JumpTo(selectedChordIndex);
     }
 
     public void OnButtonImportClick()
     {
-        pianoSheet.Clear();
-        pianoSheet = explorer.OpenFileBrowser<List<List<Note>>>();
-        Debug.Log(JsonConvert.SerializeObject(pianoSheet[0]));
-        PrintStatus();
-        selectedChordIndex = 1;
-        JumpTo(selectedChordIndex);
+        //song.InstrumentSheet[0].Sheet.Clear();
+        //song.InstrumentSheet[0].Sheet = explorer.OpenFileBrowser<List<List<Note>>>();
+        //Debug.Log(JsonConvert.SerializeObject(song.InstrumentSheet[0].Sheet[0]));
+        //PrintStatus();
+        //selectedChordIndex = 1;
+        //JumpTo(selectedChordIndex);
     }
     
     public void OnButtonExportClick()
     {
-        SaveSheet saveSheet = new(pianoSheet);
-        explorer.SaveFileBrowser(pianoSheet.ToArray());
+        //SaveSheet saveSheet = new(song.InstrumentSheet[0].Sheet);
+        //explorer.SaveFileBrowser(song.InstrumentSheet[0].Sheet.ToArray());
     }
 
     private void PrintStatus()
     {
-        Debug.Log(JsonConvert.SerializeObject(pianoSheet));
+        Debug.Log(JsonConvert.SerializeObject(song.InstrumentSheet[0].Sheet));
         //Debug.Log(selectedChordIndex - 1 + " | "
-        //    + string.Join(" - ", pianoSheet[selectedChordIndex - 1].ToArray())
-        //    + " | " + pianoSheet[selectedChordIndex - 1].Count);
+        //    + string.Join(" - ", song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].ToArray())
+        //    + " | " + song.InstrumentSheet[0].Sheet[selectedChordIndex - 1].Count);
     }
 
     public void OnButtonChangeInstrumentClick()
@@ -383,10 +382,10 @@ public class SheetCreator : MonoBehaviour
 [Serializable]
 public class SaveSheet
 {
-    [SerializeField] List<List<Note>> pianoSheet = new();
+    //[SerializeField] List<List<Note>> song.InstrumentSheet[0].Sheet = new();
 
-    public SaveSheet(List<List<Note>> pianoSheet)
-    {
-        this.pianoSheet = pianoSheet;
-    }
+    //public SaveSheet(List<List<Note>> song.InstrumentSheet[0].Sheet)
+    //{
+    //    this.song.InstrumentSheet[0].Sheet = song.InstrumentSheet[0].Sheet;
+    //}
 }
