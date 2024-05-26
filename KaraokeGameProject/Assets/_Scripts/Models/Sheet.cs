@@ -8,24 +8,24 @@ using UnityEngine;
 
 namespace Assets._Scripts.Models
 {
-    public class Sheet
+    public class InstrumentSheet
     {
         [SerializeField] private int instrumentType = 0;
-        [SerializeField] private List<List<Note>> pianoSheet = new();
+        [SerializeField] private List<List<Note>> sheet = new();
 
-        public Sheet()
+        public InstrumentSheet()
         {
-            if (pianoSheet.Count == 0) pianoSheet.Add(new());
+            if (sheet.Count == 0) sheet.Add(new());
         }
 
-        public Sheet(int instrumentType, List<List<Note>> pianoSheet)
+        public InstrumentSheet(int instrumentType, List<List<Note>> sheet)
         {
             this.InstrumentType = instrumentType;
-            this.PianoSheet = pianoSheet;
-            if (pianoSheet.Count == 0) pianoSheet.Add(new());
+            this.Sheet = sheet;
+            if (sheet.Count == 0) sheet.Add(new());
         }
 
         public int InstrumentType { get => instrumentType; set => instrumentType = value; }
-        public List<List<Note>> PianoSheet { get => pianoSheet; set => pianoSheet = value; }
+        public List<List<Note>> Sheet { get => sheet; set => sheet = value; }
     }
 }

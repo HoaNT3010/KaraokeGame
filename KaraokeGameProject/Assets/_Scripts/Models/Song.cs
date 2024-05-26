@@ -9,7 +9,7 @@ namespace Assets._Scripts.Models
 {
     public class Song
     {
-        [SerializeField] private List<Sheet> instrumentSheet = new();
+        [SerializeField] private List<InstrumentSheet> instrumentSheet = new();
         [SerializeField] private List<Lyric> lyric = new();
 
         public Song()
@@ -18,7 +18,7 @@ namespace Assets._Scripts.Models
             if (lyric.Count == 0) lyric.Add(new());
         }
 
-        public Song(List<Sheet> instrumentSheet, List<Lyric> lyric)
+        public Song(List<InstrumentSheet> instrumentSheet, List<Lyric> lyric)
         {
             this.instrumentSheet = instrumentSheet;
             this.lyric = lyric;
@@ -26,7 +26,7 @@ namespace Assets._Scripts.Models
             if (lyric.Count == 0) lyric.Add(new());
         }
 
-        public List<Sheet> InstrumentSheet { get => instrumentSheet; set => instrumentSheet = value; }
+        public List<InstrumentSheet> InstrumentSheet { get => instrumentSheet; set => instrumentSheet = value; }
         public List<Lyric> Lyric { get => lyric; set => lyric = value; }
     }
 }
