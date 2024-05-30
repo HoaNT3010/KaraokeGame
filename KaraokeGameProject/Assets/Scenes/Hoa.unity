@@ -866,6 +866,7 @@ GameObject:
   - component: {fileID: 511118284}
   - component: {fileID: 511118286}
   - component: {fileID: 511118285}
+  - component: {fileID: 511118287}
   m_Layer: 5
   m_Name: VideoDisplay
   m_TagString: Untagged
@@ -928,6 +929,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511118283}
   m_CullTransparentMesh: 1
+--- !u!210 &511118287
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511118283}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &550516505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,7 +2349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4125459383559962781, guid: 5d1cca5e26951d045968fa90ebdabd67, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4125459383559962782, guid: 5d1cca5e26951d045968fa90ebdabd67, type: 3}
       propertyPath: m_RootOrder
@@ -3366,7 +3379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invidiousVideoPlayer: {fileID: 0}
-  youtubeVideoUrl: 
   searchVideoKeyword: Karaoke vung la me bay
   searchVideoPage: 1
   invidiousInstance: {fileID: 1063721964}
@@ -4624,7 +4636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1393679292804948910, guid: ebda7f90af336d5458ff7564835ddb38, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

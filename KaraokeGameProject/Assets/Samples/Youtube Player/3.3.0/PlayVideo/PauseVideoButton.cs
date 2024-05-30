@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -11,9 +12,13 @@ namespace YoutubePlayer.Samples.PlayVideo
 
         Button m_Button;
 
+        private TextMeshProUGUI buttonText;
+
         void Awake()
         {
             m_Button = GetComponent<Button>();
+            buttonText = GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = "Pause Video";
             m_Button.interactable = videoPlayer.isPrepared;
             videoPlayer.prepareCompleted += VideoPlayerOnPrepareCompleted;
         }
@@ -28,10 +33,12 @@ namespace YoutubePlayer.Samples.PlayVideo
             if (videoPlayer.isPlaying)
             {
                 videoPlayer.Pause();
+                buttonText.text = "Resume Video";
             }
             else if (videoPlayer.isPaused)
             {
                 videoPlayer.Play();
+                buttonText.text = "Pause Video";
             }
         }
 

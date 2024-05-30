@@ -8,19 +8,14 @@ namespace KaraokeGame.Recording.Models
         Multiple,
     }
 
-    public enum MusicSourceOption
-    {
-        YouTube,
-        Instrument,
-    }
-
     [Serializable]
     public class PlayerPerformance
     {
-        private Guid id;
-        private PerformanceMode mode;
-        private MusicSourceOption musicSourceOption;
-        private string youtubeVideoId;
-        private string voiceRecordingLocation;
+        public Guid PerformanceId { get; set; }
+        public string PerformanceName { get; set; } = string.Empty;
+        public PerformanceMode PerformanceMode { get; set; } = PerformanceMode.Single;
+        public string YouTubeVideoId { get; set; } = string.Empty;
+        public string VoiceRecordingLocation { get; set; } = string.Empty;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     }
 }

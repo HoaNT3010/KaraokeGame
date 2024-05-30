@@ -7,21 +7,24 @@ using UnityEngine;
 public class Singleton<T> : MonoBehaviour where T : Component
 {
     private static T instance;
-    public static T Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = (T)FindObjectOfType(typeof(T));
-                if (instance == null)
-                {
-                    SetupInstance();
-                }
-            }
-            return instance;
-        }
-    }
+
+    public static T Instance { get => instance; set => instance = value; }
+
+    //public static T Instance
+    //{
+    //    get
+    //    {
+    //        if (instance == null)
+    //        {
+    //            instance = (T)FindObjectOfType(typeof(T));
+    //            if (instance == null)
+    //            {
+    //                SetupInstance();
+    //            }
+    //        }
+    //        return instance;
+    //    }
+    //}
 
     public virtual void Awake()
     {
@@ -30,9 +33,9 @@ public class Singleton<T> : MonoBehaviour where T : Component
 
     private void RemoveDuplicates()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this as T;
+            Instance = this as T;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -43,13 +46,22 @@ public class Singleton<T> : MonoBehaviour where T : Component
 
     private static void SetupInstance()
     {
-        instance = (T)FindObjectOfType(typeof(T));
-        if (instance == null)
+        Instance = (T)FindObjectOfType(typeof(T));
+        if (Instance == null)
         {
             GameObject gameObj = new GameObject();
             gameObj.name = typeof(T).Name;
-            instance = gameObj.AddComponent<T>();
+            Instance = gameObj.AddComponent<T>();
             DontDestroyOnLoad(gameObj);
+        }
+    }
+
+    public virtual void OnDestroy()
+    {
+        if (Instance != null)
+        {
+            Instance = null;
+            Destroy(gameObject);
         }
     }
 }
