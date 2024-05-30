@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class VoiceRecorder : MonoBehaviour
 {
-    [SerializeField] private string fileName;
+    public string fileName;
 
     private static AudioSource audioSource;
     private bool isRecording;
@@ -12,7 +12,7 @@ public class VoiceRecorder : MonoBehaviour
     private float recordingDuration;
 
     const int DEFAULT_SAMPLE_RATES = 44100;
-    const int MAX_RECORDING_DURATION_SECONDS = 300;
+    const int MAX_RECORDING_DURATION_SECONDS = 600;
 
     void Start()
     {
@@ -85,27 +85,28 @@ public class VoiceRecorder : MonoBehaviour
         recordingDuration = MAX_RECORDING_DURATION_SECONDS;
         isRecording = true;
         Debug.Log("Begin recording at: " + beginRecordTime);
-        audioSource.clip = Microphone.Start(currentMicrophone, true, MAX_RECORDING_DURATION_SECONDS, DEFAULT_SAMPLE_RATES);
+        audioSource.clip = Microphone.Start(currentMicrophone, false, MAX_RECORDING_DURATION_SECONDS, DEFAULT_SAMPLE_RATES);
     }
 
-    public void StopRecording()
+    public string StopRecording()
     {
         if (!IsCurrentMicrophoneAvailable())
         {
             Debug.Log("Failed to stop recording. Current microphone is not available!");
-            return;
+            return null;
         }
         isRecording = false;
         Debug.Log("Start saving file!");
-        SavingWavFile();
+        string filePath = SavingWavFile();
         Debug.Log("Stop recording!");
         Microphone.End(currentMicrophone);
+        return filePath;
     }
 
     public string SavingWavFile()
     {
         string filePath;
-        WavUtility.FromAudioClip(ExtractRecordedSound(audioSource.clip), out filePath, Application.streamingAssetsPath, fileName);
+        WavUtility.FromAudioClip(ExtractRecordedSound(audioSource.clip), out filePath, "", fileName);
         return filePath;
     }
 
