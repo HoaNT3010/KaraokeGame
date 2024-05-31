@@ -27,7 +27,7 @@
 //                {
 //                    string loadData = File.ReadAllText(path);
 //                    deserializeObject = JsonConvert.DeserializeObject<T>(loadData);
-                    
+
 //                }
 
 //                Debug.Log(path);
@@ -40,7 +40,7 @@
 //            var bp = new BrowserProperties();
 //            bp.filter = "JSON files (*.json, *.txt) | *.json; *.txt";
 //            bp.filterIndex = 0;
-            
+
 //            new FileBrowser().SaveFileBrowser(bp, path =>
 //            {
 //                if (!path.Contains(".json")) path += ".json";
@@ -48,7 +48,7 @@
 //                Debug.Log(jsonString);
 //                File.WriteAllText(path, jsonString);
 
-                
+
 //                Debug.Log(path);
 //            });
 
